@@ -13,21 +13,21 @@
 #									                                         #
 ############################################################################## 
 
-DATE=$(date +%Y%m%d_%H%M)
-POINTS=0
+DATE=$(date +%Y%m%d_%H%M) #création de la variable date pour le fichier log
+POINTS=0 #création des variables points et nbquest qui seront incrémentées en auto
 NBQUEST=0
-NBQUESTTEMP=0
-FICHIERQUESTIONS=questions_revisions.txt
-TEMPF=temp
-TEMPF1=temp1
+NBQUESTTEMP=0 #variable qui sert à la limie de 10 questions
+FICHIERQUESTIONS=questions_revisions.txt #nom du fichier questions
+TEMPF=temp #variable liée au fichier temp pour les questions
+TEMPF1=temp1 #variables temp pour les messages motivationnels
 TEMPF2=temp2
 TEMPF3=temp3
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-NC='\033[0m' # No Color
-BOLD='\033[1m'
+RED='\033[0;31m' #code couleur pour les mauvaises réponses
+GREEN='\033[0;32m'#code couleur pour les bonnes réponses
+NC='\033[0m' # No Color 
+BOLD='\033[1m' #code pour mettre en gras le texte
 #SAISPAS='\e[37;44m'
-SAISPAS='\e[1;33;41m'
+SAISPAS='\e[1;33;41m' #code pour la couleur d'arrière plan 1;33 pour le jaune, 44 pour le rouge
 
 {
     echo "ne baisse pas les bras gros"
@@ -68,7 +68,7 @@ SAISPAS='\e[1;33;41m'
     echo "Windows, c'est comme une boîte de chocolats : on ne sait jamais comment ça va planter"
     echo "je suis ton père !!!! Naaaannnnnnn !!!"
     echo "supporter du LOSC ? ta mère c'est ta soeur ???"
-} >> $TEMPF1
+} >> $TEMPF1 # les accolades permettent de réaliser la même action sur toutes ces lignes
 {
     echo "chapeau mec"
     echo "Nom de Zeus"
@@ -101,7 +101,7 @@ SAISPAS='\e[1;33;41m'
     echo "bien mec, tu marques 1 point"
     echo "Alfou ? c'est toi ?"
     echo "trop fort mec, tu es démasqué, c'est toi qui a piraté le doc !!!"
-} >> $TEMPF2
+} >> $TEMPF2 #envoie les phrases si dessus dans un fichier temporaire
 q2() {
     echo
             echo "Voici ton résultat mec :"
@@ -165,16 +165,21 @@ q2() {
             echo "bisous"
             rm $TEMPF*
 }
-
+#démarrage de la fonction q1 qui pose la question à l'utilisateur, cette fonction sera utilisé 10 fois d'affilée
 q1() {
+#compte le nombre de question restant encore à poser
 TOTALQUEST=$(cat $TEMPF | wc -l)
+#si plus de question
 if [[ $TOTALQUEST = 0 ]];
 then
 echo "c'est fini mec, tu as épuisé toutes les questions possibles"
+#éxécute la fonction q2 qui gère les résultats
 q2
 else
+#incrémente de 1 les variables comptant le nombre de questions
 ((NBQUEST++))
 ((NBQUESTTEMP++))
+#sélectionne aléatoirement une question dans le fichier des questions restantes
 NUMQUEST=$((1 + RANDOM % TOTALQUEST))
 THEME=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f1 | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]')
 THEMESVAR=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f1 | tr -d '[:blank:]' | tr éè ee | tr '[:lower:]' '[:upper:]' | uniq )
@@ -295,36 +300,54 @@ echo
 echo "ready ?"
 echo
 sleep 1
- 
+    #compte le nombre de themes différents, les tr permettent de formater le texte pour ensuite les regrouper avec uniq
     NBTHEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr '[:upper:]' '[:lower:]'| tr -d '[:blank:]' | uniq | wc -l)
     echo
     echo question1="sélectionne le theme désiré"
+    #création d'une boucle avec le nombre de themes vu plus haut
+    #la boucle démarre par c=1, à chaque itération c prendra +1 et continuera jusqu'à ce que c soit égal au nombre de thèmes
     for (( c=1; c<=NBTHEMES; c++ ))
     do
+    #pour chaque theme je récupère le nom du thème le head et le tail permettent d'identifier le ligne à sélectionner
+    #ex : si 5 themes uniques dans le fichier il cherche la ligne 1 puis 2 etc...
     THEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]' | uniq | head -$c | tail +$c )
+    #affiche le nom du thème à l'écran
     echo $c="$THEMES"
+    #récupère le nom du theme mais avec un formatage différent pour l'utiliser dans une variable, suppression des accents et mise en majuscules
     THEMESVAR=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr éè ee | tr '[:lower:]' '[:upper:]' | uniq | head -$c | tail +$c )
+    #création des variables dynamiques liées au themes, par défaut le script ignore les themes, il les découvrent lors de la lecture du fichier question, il attribue donc 2 variables dynamiques par themes pour caluler les stats
+    #les variables ci dessous peuvent être interpréter comme NBLINUX=0 NBWINDOWS=0 ou encore PTRESEAUX=0 etc...
     NB[THEMESVAR]=0
     PT[THEMESVAR]=0
+    #fin de la boucle pour identifier les themes
     done
     echo z="Toutes les thématiques"
+    #la commande read permet une action utilisateur avec injection du résultat dans une variable
     read -r question1
     sleep 0.5
+    #si sélection de l'option pour tous les themes
     if [ $question1 = "z" ];
     then
+    #création de la variable T qui permet de faire le récap par theme à la fin
     T="all"
+    #envoie des questions du fichiers questions vers un fichier temporaire (où elles seront supprimées au fur et à mesure)
     cat $FICHIERQUESTIONS  > $TEMPF
+    #compte le nombre de question max qui seront posées
     TOTALQUEST=$(cat $TEMPF | wc -l)
     sleep 0.5
+    #echo -e permet d'ajouter un formatage lors de la sortie à l'écran
     echo "----------------------------------------------------"
     echo -e "${SAISPAS}Le questionnaire traitera donc l'ensemble des thèmes${NC}"
     echo "----------------------------------------------------"
+    #si l'utilisateur n'a pas choisi l'ensemble des themes, c'est cette partie ci dessous qui sera éxécutée
     else
+    #définition de la variable T qui ne sera pas utilisé (le truc permet d'éviter quelle soit vide, ce qui ne serait pas génant si ma condition portait sur sa présence ou non plutôt que sur une valeur)
     T="truc"
     THEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | uniq | head -"$question1" | tail +"$question1")
     echo "--------------------------------"
     echo -e "${SAISPAS}thème choisi : $THEMES${NC}"
     echo "--------------------------------"
+    #envoie les questions du theme sélectionné vers le fichier temporaire
     cat $FICHIERQUESTIONS | grep ^"$THEMES"  > $TEMPF   
     TOTALQUEST=$(cat $TEMPF | wc -l)
     fi
@@ -335,4 +358,5 @@ echo "let's go!"
 echo
 sleep 0.5
 clear
+#une fois la sélection du theme réalisée, c'est la fonction q1 qui est éxécutée (voir plus haut)
 q1
