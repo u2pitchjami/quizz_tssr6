@@ -9,3 +9,4 @@ Réseaux;Comment nomme t-on le parametre d'une carte réseau d'une machine virtu
 Réseaux;Le protocole ssh est-il sécurisé ?;oui;non;A
 Réseaux;Qu'elle est la variante non sécurisée du protocole SSH ?;tenet;netadmin;telnet;IMAP;c
 Réseaux;Que se passe t-il si aucune passerelle n'est définie sur la carte réseau ?;je n'ai plus accès au réseau local mais internet oui;j'ai accès à tout comme si de rien;j'ai accès à rien du tout;j'ai accès au réseau local mais pas internet;d
+test

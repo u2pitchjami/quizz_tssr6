@@ -320,7 +320,7 @@ sleep 1
     echo -e "${SAISPAS}Le questionnaire traitera donc l'ensemble des thèmes${NC}"
     echo "----------------------------------------------------"
     else
-    T=
+    T="truc"
     THEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | uniq | head -"$question1" | tail +"$question1")
     echo "--------------------------------"
     echo -e "${SAISPAS}thème choisi : $THEMES${NC}"
