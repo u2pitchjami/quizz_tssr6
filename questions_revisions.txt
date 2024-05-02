@@ -9,4 +9,22 @@ Réseaux;Comment nomme t-on le parametre d'une carte réseau d'une machine virtu
 Réseaux;Le protocole ssh est-il sécurisé ?;oui;non;A
 Réseaux;Qu'elle est la variante non sécurisée du protocole SSH ?;tenet;netadmin;telnet;IMAP;c
 Réseaux;Que se passe t-il si aucune passerelle n'est définie sur la carte réseau ?;je n'ai plus accès au réseau local mais internet oui;j'ai accès à tout comme si de rien;j'ai accès à rien du tout;j'ai accès au réseau local mais pas internet;d
-test
+Général;Quelles sont les 3 principales caractéristiques matérielles que vont déterminer la performance d'un pc ?;Carte réseaux;Vitesse du microprocesseur;La version du bios;La quatité de RAM;Le système d'exploitation;La capacité de stockage;Le type de clavier;bdf
+Général;Quand on parle généralement de la mémoire d'un pc on parle de la ?;RAM;ROM;A
+Général;Quel est le type de mémoire qui s'efface quand on éteint l'ordinateur ?;RAM;ROM;A
+VM;Lors de la création d'une VM, que signifie un disque dur virtuel dynamique ?;il n'y a pas de disque, tout est dans la ram;le disque est créé avec sa capacité maximale;le disque est créé mais sa capacité augmentera progressivement en fonction de son utilisaton;c'est un disque dur physique qui est dédié exclusivement à la VM;C
+Réseaux;Par quoi peut on identifier un matériel d'un autre sur un réseau local ?son adresse physique;son adresse IP;son poids;sa capacité de RAM;b
+Général;A quoi correspond 1024 octets ?;1KO;2MO;1TO;1GO;3.2GO;2PO;A
+Général;A quoi correspond 1024 GO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;C
+Général;A quoi correspond 1024 MO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;d
+Général;A quoi correspond 2048 KO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;b
+Général;A quoi correspond 3624 MO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;e
+Général;A quoi correspond 2048 TO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;f
+Général;A quoi servent les ports PCI et PCI Express sur une carte mère;Améliorer la vitesse du procésseur;insérer des extensions pour ajouter des fonctionnalitées supplémentaires;insérer des barettes de RAM;insérer une clé USB;b
+Général;quelle est la différence principales entre un port PCI et PCI Express ?;la vitesse de transfert;la taille de la RAM;la version du bios;a
+Windows;Quelles sont les 2 méthodes pour obtenir de l'aide sur windows ?;commande --help;commande /?;man commande;help commande;bd
+Linux;Quelles sont les 2 méthodes pour obtenir de l'aide sur linux ?;commande --help;commande /?;man commande;help commande;ac
+Général;Citer les différents cables qui servent à relier une carte graphique à un écran ?;RJ45;Sata;VGA;USB;DVI;ce
+Réseaux;A quoi sert un masque de sous réseau ?;Masquer le réseau local;délimiter la partie réseau de la partie machine d'une ip,accéder à internet par satellite;b
+Anglais;que signifie : Please remove this media;S'il vous plait redémarrez windows;S'il vous plait retirez ce média;Merci d'éteindre l'ordinateur;b
+Anglais;que signifie : Press any key to continue;Appuyez sur n'imposte qu'elle touche pour continuer;Appuyer sur entrée pour redémarrer;S'il vous plait redémarrez windows;S'il vous plait retirez ce média;Merci d'éteindre l'ordinateur;b
