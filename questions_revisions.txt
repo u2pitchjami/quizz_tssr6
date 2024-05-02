@@ -1,0 +1,11 @@
+Linux;que faut-il ajouter à la commande "GREP" pour rechercher en début de ligne ?;&;$;^;@;c
+Linux;que faut-il ajouter à la commande "GREP" pour rechercher en fin de ligne ?;&;$;^;@;b
+Linux;A quoi sert la commande "touch" ?;éteindre son pc;créer un fichier vide;compter le nombre de lignes;une chanson de u2;b
+Linux;Qu'elles sont les 2 grandes familles (vues en cours) de distro linux ?;Windows;Debian;OS/400;Android;PAM OS;Red Hat;IRMX;bf
+Windows;Quelle est la commande pour afficher son adresse IP dans le terminal de commande ?;print ip;config ip;ifconfig;ipconfig;d
+Binaire;Combien d'octets composent une adresse IP ?;32;12;4;8;256;64;c
+Réseaux;Quel est l'adressage courant d'un sous réseaux de classe C ?;192.168.xxx;172.xxx;10.xxx;255.255.xxx;A
+Réseaux;Comment nomme t-on le parametre d'une carte réseau d'une machine virtuelle qui utilise la carte du pc physique hôte ?;NAT;Bridge;Host;b
+Réseaux;Le protocole ssh est-il sécurisé ?;oui;non;A
+Réseaux;Qu'elle est la variante non sécurisée du protocole SSH ?;tenet;netadmin;telnet;IMAP;c
+Réseaux;Que se passe t-il si aucune passerelle n'est définie sur la carte réseau ?;je n'ai plus accès au réseau local mais internet oui;j'ai accès à tout comme si de rien;j'ai accès à rien du tout;j'ai accès au réseau local mais pas internet;d
