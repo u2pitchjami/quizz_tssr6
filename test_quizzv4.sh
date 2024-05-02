@@ -336,3 +336,4 @@ echo
 sleep 0.5
 clear
 q1
+ligne de test tu la vois ?
