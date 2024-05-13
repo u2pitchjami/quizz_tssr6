@@ -159,7 +159,7 @@ q2() {
                 done
             fi
             echo
-            echo "merci d'avoir jouer"
+            echo "merci d'avoir joué"
             echo
             sleep 1
             echo "bisous"
