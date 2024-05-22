@@ -2,32 +2,6 @@ Linux;que faut-il ajouter à la commande "GREP" pour rechercher en début de lig
 Linux;que faut-il ajouter à la commande "GREP" pour rechercher en fin de ligne ?;&;$;^;@;b
 Linux;A quoi sert la commande "touch" ?;éteindre son pc;créer un fichier vide;compter le nombre de lignes;une chanson de u2;b
 Linux;Qu'elles sont les 2 grandes familles (vues en cours) de distro linux ?;Windows;Debian;OS/400;Android;PAM OS;Red Hat;IRMX;bf
-Windows;Quelle est la commande pour afficher son adresse IP dans le terminal de commande ?;print ip;config ip;ifconfig;ipconfig;d
-Binaire;Combien d'octets composent une adresse IP ?;32;12;4;8;256;64;c
-Réseaux;Quel est l'adressage courant d'un sous réseaux de classe C ?;192.168.xxx;172.xxx;10.xxx;255.255.xxx;A
-Réseaux;Comment nomme t-on le parametre d'une carte réseau d'une machine virtuelle qui utilise la carte du pc physique hôte ?;NAT;Bridge;Host;b
-Réseaux;Le protocole ssh est-il sécurisé ?;oui;non;A
-Réseaux;Qu'elle est la variante non sécurisée du protocole SSH ?;tenet;netadmin;telnet;IMAP;c
-Réseaux;Que se passe t-il si aucune passerelle n'est définie sur la carte réseau ?;je n'ai plus accès au réseau local mais internet oui;j'ai accès à tout comme si de rien;j'ai accès à rien du tout;j'ai accès au réseau local mais pas internet;d
-Général;Quelles sont les 3 principales caractéristiques matérielles que vont déterminer la performance d'un pc ?;Carte réseaux;Vitesse du microprocesseur;La version du bios;La quatité de RAM;Le système d'exploitation;La capacité de stockage;Le type de clavier;bdf
-Général;Quand on parle généralement de la mémoire d'un pc on parle de la ?;RAM;ROM;A
-Général;Quel est le type de mémoire qui s'efface quand on éteint l'ordinateur ?;RAM;ROM;A
-VM;Lors de la création d'une VM, que signifie un disque dur virtuel dynamique ?;il n'y a pas de disque, tout est dans la ram;le disque est créé avec sa capacité maximale;le disque est créé mais sa capacité augmentera progressivement en fonction de son utilisaton;c'est un disque dur physique qui est dédié exclusivement à la VM;C
-Réseaux;Par quoi peut on identifier un matériel d'un autre sur un réseau local ?;son adresse physique;son adresse IP;son poids;sa capacité de RAM;b
-Général;A quoi correspond 1024 octets ?;1KO;2MO;1TO;1GO;3.2GO;2PO;A
-Général;A quoi correspond 1024 GO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;C
-Général;A quoi correspond 1024 MO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;d
-Général;A quoi correspond 2048 KO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;b
-Général;A quoi correspond 3624 MO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;e
-Général;A quoi correspond 2048 TO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;f
-Général;A quoi servent les ports PCI et PCI Express sur une carte mère;Améliorer la vitesse du procésseur;insérer des extensions pour ajouter des fonctionnalitées supplémentaires;insérer des barettes de RAM;insérer une clé USB;b
-Général;quelle est la différence principales entre un port PCI et PCI Express ?;la vitesse de transfert;la taille de la RAM;la version du bios;a
-Windows;Quelles sont les 2 méthodes pour obtenir de l'aide sur windows ?;commande --help;commande /?;man commande;help commande;bd
-Linux;Quelles sont les 2 méthodes pour obtenir de l'aide sur linux ?;commande --help;commande /?;man commande;help commande;ac
-Général;Citer les différents cables qui servent à relier une carte graphique à un écran ?;RJ45;Sata;VGA;USB;DVI;ce
-Réseaux;A quoi sert un masque de sous réseau ?;Masquer le réseau local;délimiter la partie réseau de la partie machine d'une ip;accéder à internet par satellite;b
-Anglais;que signifie : Please remove this media;S'il vous plait redémarrez windows;S'il vous plait retirez ce média;Merci d'éteindre l'ordinateur;b
-Anglais;que signifie : Press any key to continue;Appuyez sur n'imposte qu'elle touche pour continuer;Appuyer sur entrée pour redémarrer;S'il vous plait redémarrez windows;S'il vous plait retirez ce média;Merci d'éteindre l'ordinateur;b
 Linux;Qu'est-ce que Linux ?;Un langage de programmation;Un système d'exploitation;Un logiciel de sécurité;Un navigateur web;b
 Linux;Quelle est la commande pour lister les fichiers dans un répertoire sous Linux ?;list;show;ls;dir;c
 Linux;Quelle commande est utilisée pour créer un répertoire sous Linux ?;newdir;mkfile;mkdir;touch;c
@@ -78,56 +52,131 @@ Linux;Quelle commande est utilisée pour lister les processus en cours d'exécut
 Linux;Quelle est la commande pour rechercher un fichier ou un répertoire sous Linux ?;search;find;locate;grep;b
 Linux;Quelle commande est utilisée pour afficher les utilisateurs du système sous Linux ?;listusers;who;users;lsusers;c
 Linux;Quelle est la commande pour afficher les journaux système sous Linux ?;logs;journalctl;syslog;syslogs;b
-Active_directory;Qu'est-ce qu'Active Directory (AD) ?;Un système de gestion de base de données;Un système de gestion de réseau;Un service d'annuaire de Microsoft;Un protocole de sécurité réseau;c
-Active_directory;Quel est le rôle principal d'Active Directory dans un environnement Windows ?;Gérer les adresses IP des périphériques;Authentifier et autoriser les utilisateurs et les ordinateurs;Fournir un accès Internet sécurisé;Contrôler le trafic réseau en autorisant ou en bloquant certaines communications;b
-Active_directory;Quel est le langage de programmation utilisé pour administrer Active Directory ?;C++;Java;PowerShell;Python;c
-Active_directory;Quelle est la fonction principale d'un contrôleur de domaine dans Active Directory ?;Gérer les adresses IP des périphériques;Stocker les informations d'identification des utilisateurs et des ordinateurs;Fournir un accès Internet sécurisé;Contrôler le trafic réseau en autorisant ou en bloquant certaines communications;b
-Active_directory;Quelle est la structure hiérarchique utilisée dans Active Directory ?;Arborescence;Grille;Tableau;Boucle;a
-Active_directory;Quel est l'élément de base dans Active Directory qui représente une ressource physique ou logique, telle qu'un utilisateur, un ordinateur ou une imprimante ?;Groupe;Objet;Rôle;Unité organisationnelle (OU);b
-Active_directory;Quelle est la console d'administration principale utilisée pour gérer Active Directory ?;Gestionnaire de serveur;Gestionnaire de périphériques;Gestionnaire de domaines;Utilisateurs et ordinateurs Active Directory;d
-Active_directory;Quel est le protocole principal utilisé par les clients Windows pour se connecter et interagir avec Active Directory ?;FTP;SMB;LDAP;HTTP;c
-Active_directory;Quel est le processus de synchronisation des mots de passe entre un ordinateur et Active Directory ?;Authentification unique (SSO);Synchronisation des mots de passe;Protocole Kerberos;Gestion des certificats;b
-Active_directory;Quel est le rôle principal de Group Policy dans Active Directory ?;Gérer les adresses IP des périphériques;Définir des paramètres de sécurité et de configuration pour les utilisateurs et les ordinateurs;Fournir un accès Internet sécurisé;Contrôler le trafic réseau en autorisant ou en bloquant certaines communications;b
-Active_directory;Quel est le rôle de DNS dans un environnement Active Directory ?;Fournir des adresses IP aux périphériques du réseau;Authentifier et autoriser les utilisateurs et les ordinateurs;Convertir les noms de domaine en adresses IP et vice versa;Gérer les fichiers partagés;c
-Active_directory;Quelle est la commande utilisée pour ouvrir la console Utilisateurs et ordinateurs Active Directory à partir de PowerShell ?;Open-ADConsole;Start-ADUC;Get-ADConsole;Invoke-ADUC;b
-Active_directory;Quel est le processus d'attribution de permissions spécifiques à un objet ou à une ressource dans Active Directory ?;Délégation;Gestion des accès;Autorisation unique (SSO);Contrôle d'accès basé sur les rôles (RBAC);a
-Active_directory;Quelle est la fonction du service de certificats Active Directory (AD CS) ?;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;Gérer l'émission et la gestion des certificats de sécurité;d
-Active_directory;Quel est le processus de création d'une copie de sauvegarde de la base de données Active Directory ?;Sauvegarde;Clonage;Réplication;Sauvegarde d'autorité;a
-Active_directory;Quelle est la fonction principale du service Active Directory Lightweight Directory Services (AD LDS) ?;Gérer les adresses IP des périphériques;Fournir un annuaire léger pour les applications;Fournir un accès Internet sécurisé;Gérer la réplication des données;b
-Active_directory;Quelle est la commande pour forcer la réplication entre les contrôleurs de domaine dans Active Directory ?;Force-Replication;Start-Replication;Replicate-Now;repadmin /syncall;d
-Active_directory;Quel est le processus de création d'une copie d'un objet Active Directory sur un autre serveur ?;Clonage;Migration;Réplication;Délégation;c
-Active_directory;Quelle est la fonction principale du service Active Directory Certificate Services (AD CS) ?;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;Gérer la sécurité des certificats;d
-Active_directory;Quelle est la commande pour vérifier la santé et la réplication des contrôleurs de domaine dans Active Directory ?;Check-ADHealth;Get-ADDomainController;repadmin /replsummary;Test-ADDSDomainController;c
-Active_directory;Quel est le processus de création d'une unité organisationnelle (OU) dans Active Directory ?;Création;Ajout;Configuration;Déploiement;a
-Active_directory;Quelle est la commande utilisée pour créer un nouvel utilisateur dans Active Directory via PowerShell ?;New-ADUser;Create-ADUser;Add-ADUser;Set-ADUser;a
-Active_directory;Quelle est la fonction principale de Active Directory Federation Services (AD FS) ?;Authentifier et autoriser les utilisateurs et les ordinateurs;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;Fédérer l'authentification entre les organisations;d
-Active_directory;Quelle est la commande pour lister les groupes d'un utilisateur spécifique dans Active Directory via PowerShell ?;Get-ADUserGroup;Get-ADGroupMember;Get-ADUserMemberOf;Get-ADGroup;c
-Active_directory;Quel est le processus de déplacement d'un objet Active Directory d'un conteneur à un autre ?;Déplacement;Copie;Migration;Délégation;a
-Active_directory;Quelle est la fonction principale de Active Directory Rights Management Services (AD RMS) ?;Gérer les adresses IP des périphériques;Fournir des certificats SSL pour les sites web;Gérer les droits d'accès aux documents et aux fichiers;Fournir un accès Internet sécurisé;c
-Active_directory;Quelle est la commande pour désactiver un compte utilisateur dans Active Directory via PowerShell ?;Disable-ADAccount;Set-ADUser;Remove-ADUser;Deactivate-ADUser;a
-Active_directory;Quel est le processus de création d'un groupe de distribution dans Active Directory ?;Création;Ajout;Configuration;Déploiement;a
-Active_directory;Quelle est la fonction principale de Active Directory Domain Services (AD DS) ?;Authentifier et autoriser les utilisateurs et les ordinateurs;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;a
-Active_directory;Quelle est la commande pour lister tous les contrôleurs de domaine dans Active Directory via PowerShell ?;Get-ADDomainController;List-ADDC;Show-ADController;Get-ADController;a
-Active_directory;Quel est le processus de gestion des identités des utilisateurs dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;c
-Active_directory;Quelle est la fonction principale de Active Directory Lightweight Directory Services (AD LDS) ?;Gérer les adresses IP des périphériques;Fournir un annuaire léger pour les applications;Fournir un accès Internet sécurisé;Gérer la réplication des données;b
-Active_directory;Quelle est la commande pour modifier les propriétés d'un utilisateur dans Active Directory via PowerShell ?;Modify-ADUser;Set-ADUser;Update-ADUser;Change-ADUser;b
-Active_directory;Quel est le processus de gestion des accès des utilisateurs aux ressources dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;b
-Active_directory;Quelle est la fonction principale de Active Directory Certificate Services (AD CS) ?;Gérer les adresses IP des périphériques;Fournir des certificats SSL pour les sites web;Fournir un accès Internet sécurisé;Gérer l'émission et la gestion des certificats de sécurité;d
-Active_directory;Quelle est la commande pour modifier les groupes d'un utilisateur dans Active Directory via PowerShell ?;Set-ADUserGroup;Add-ADGroupMember;Add-ADUserGroup;Set-ADGroupMember;b
-Active_directory;Quel est le processus de configuration des paramètres de sécurité pour les utilisateurs et les ordinateurs dans Active Directory ?;Authentification;Autorisation;Gestion des accès;Gestion des stratégies de groupe (GPO);d
-Active_directory;Quelle est la fonction principale de Active Directory Rights Management Services (AD RMS) ?;Gérer les adresses IP des périphériques;Fournir des certificats SSL pour les sites web;Gérer les droits d'accès aux documents et aux fichiers;Fournir un accès Internet sécurisé;c
-Active_directory;Quelle est la commande pour déverrouiller un compte utilisateur verrouillé dans Active Directory via PowerShell ?;Unlock-ADAccount;Set-ADUser;UnlockUser;Unfreeze-ADUser;a
-Active_directory;Quel est le processus de gestion des identités des utilisateurs dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;c
-Active_directory;Quelle est la fonction principale de Active Directory Federation Services (AD FS) ?;Authentifier et autoriser les utilisateurs et les ordinateurs;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fédérer l'authentification entre les organisations;d
-Active_directory;Quelle est la commande pour désactiver un groupe dans Active Directory via PowerShell ?;Disable-ADGroup;Deactivate-ADGroup;Set-ADGroup;Remove-ADGroup;a
-Active_directory;Quel est le processus de création d'un utilisateur dans Active Directory ?;Création;Ajout;Configuration;Déploiement;a
-Active_directory;Quelle est la fonction principale de Active Directory Domain Services (AD DS) ?;Authentifier et autoriser les utilisateurs et les ordinateurs;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;a
-Active_directory;Quelle est la commande pour créer un nouveau groupe dans Active Directory via PowerShell ?;New-ADGroup;Create-ADGroup;Add-ADGroup;Set-ADGroup;a
-Active_directory;Quel est le processus de gestion des accès des utilisateurs aux ressources dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;b
-Active_directory;Quelle est la fonction principale de Active Directory Lightweight Directory Services (AD LDS) ?;Gérer les adresses IP des périphériques;Fournir un annuaire léger pour les applications;Fournir un accès Internet sécurisé;Gérer la réplication des données;b
-Active_directory;Quelle est la commande pour lister tous les groupes dans Active Directory via PowerShell ?;Get-ADGroup;List-ADGroup;Show-ADGroup;Get-ADGroupMember;a
-Active_directory;Quel est le processus de gestion des identités des utilisateurs dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;c
-Active_directory;Quelle est la fonction principale de Active Directory Certificate Services (AD CS) ?;Gérer les adresses IP des périphériques;Fournir des certificats SSL pour les sites web;Fournir un accès Internet sécurisé;Gérer l'émission et la gestion des certificats de sécurité;d
+Linux;Quelles sont les 2 méthodes pour obtenir de l'aide sur linux ?;commande --help;commande /?;man commande;help commande;ac
+linux;Quelle commande permet de créer un nouvel utilisateur sous Linux ?;useradd;adduser;newuser;createuser;a
+linux;Quelle commande permet de modifier les droits d'un fichier ou d'un dossier ?;chmod;chown;chgrp;chmodown;a
+linux;Quelle commande permet de changer le propriétaire d'un fichier ou d'un dossier ?;chmod;chown;chgrp;usermod;b
+linux;Que signifie tty dans un système Linux ?;Teletypewriter;Terminal;Telecommunication;Text Terminal;a
+linux;Que représente pts/x dans un système Linux ?;Physical Terminal Session;Pseudo Terminal Slave;Physical Terminal Slave;Pseudo Terminal Session;b
+linux;Quelle commande permet de démarrer un service sous Linux ?;start service;service start;systemctl start;init start;c
+linux;Quelle commande est utilisée pour arrêter un service sous Linux ?;systemctl stop;stop service;service stop;init stop;a
+linux;Quel utilitaire est utilisé pour créer des archives sous Linux ?;gzip;zip;tar;compress;c
+linux;Quelle commande permet de planifier des tâches sous Linux ?;cron;at;schedule;crontab;d
+linux;Comment ajouter une tâche cron qui s'exécute tous les jours à 3 heures du matin ?;) 0 3 * * * /path/to/command;) 0 3 0 0 0 /path/to/command;) 3 0 * * * /path/to/command;) * 3 * * * /path/to/command;a
+linux;Quelle commande permet de configurer un pare-feu en ligne de commande sous Linux ?;) iptables;) firewall;) netfilter;) firewalld;a
+linux;Quelle commande permet de configurer les interfaces réseau de manière interactive sous Linux ?;) nmtui;) nmcli;) ifconfig;) ipconfig;a
+linux;Quel fichier contient les informations des utilisateurs sous Linux ?;) /etc/shadow;) /etc/passwd;) /etc/group;) /etc/users;b
+linux;Quelle commande permet de vérifier les services actifs sous Linux ?;) service list;) systemctl status;) systemctl list;) service status;b
+linux;Quelle option de la commande tar permet de créer une archive ?;) -c;) -x;) -v;) -f;a
+linux;Quelle option de la commande tar permet d'extraire une archive ?;) -c;) -x;) -v;) -f;b
+linux;Quelle commande permet de changer le groupe propriétaire d'un fichier ou d'un dossier ?;) chown;) chmod;) chgrp;) chgowner;c
+linux;Quelle est la syntaxe correcte pour changer le propriétaire et le groupe d'un fichier en une seule commande ?;) chown user:group filename;) chown user group filename;) chgrp user:group filename;) chmod user:group filename;a
+linux;Quelle commande permet de lister les tâches planifiées pour l'utilisateur courant ?;) crontab -e;) crontab -l;) cron list;) crontab -d;b
+linux;Quelle commande permet d'éditer les tâches planifiées pour l'utilisateur courant ?;) crontab -e;) crontab -l;) crontab -d;) cronedit;a
+linux;Quelle commande permet de lister les règles actuelles du pare-feu iptables ?;) iptables -L;) iptables -S;) iptables -list;) iptables --show;a
+linux;Quel fichier contient les informations de groupe sous Linux ?;) /etc/shadow;) /etc/passwd;) /etc/group;) /etc/users;c
+linux;Quelle commande permet de créer un groupe sous Linux ?;) groupadd;) addgroup;) newgroup;) create group;a
+linux;Quel fichier de configuration est utilisé par crontab ?;) /etc/cron.conf;) /etc/crontab;) /etc/cron.d;) /etc/cron.daily;b
+linux;Quelle commande permet de vérifier l'état d'un service sous Linux ?;) service status;) systemctl check;) systemctl status;) check service;c
+linux;Quelle commande permet de lister les utilisateurs connectés à un système Linux ?;) who;) users;) w;) finger;a
+linux;Quelle commande permet d'ajouter un utilisateur à un groupe sous Linux ?;) usermod -aG group user;) useradd -G group user;) adduser user group;) groupmod -a user group;a
+linux;Quelle option de la commande tar permet de compresser l'archive avec gzip ?;) -z;) -x;) -g;) -c;a
+linux;Quel fichier de configuration est utilisé par iptables pour des règles persistantes ?;) /etc/iptables.conf;) /etc/sysconfig/iptables;) /etc/iptables/rules.v4;) /etc/firewall/iptables;b
+linux;Quelle commande permet de redémarrer un service sous Linux ?;) systemctl restart;) service restart;) systemctl start;) init restart;a
+linux;Quelle commande permet de vérifier l'état de la configuration réseau sous Linux ?;) ifconfig;) ip addr;) netstat;) nmcli dev status;d
+linux;Quelle commande permet de supprimer un utilisateur sous Linux ?;) userdel;) deluser;) rmuser;) removeuser;a
+linux;Quelle option de la commande chmod permet d'ajouter des permissions ?;) +;) -;) =;) a;a
+linux;Quelle option de la commande chmod permet de retirer des permissions ?;) +;) -;) =;) r;b
+linux;Quelle commande permet de voir les logs des services sous Linux ?;) logview;) journalctl;) logctl;) syslog;b
+linux;rvices qui les utilisent ?;) netstat -tuln;) ifconfig -a;) iptables -L;) lsof -i;a
+linux;Quelle commande permet de démarrer l'interface utilisateur de Network Manager en mode texte ?;) nmtui;) nmcli;) ifconfig;) netctl;a
+linux;Quelle commande permet de modifier le mot de passe d'un utilisateur sous Linux ?;) passwd;) chpasswd;) modpass;) changepw;a
+linux;Quelle commande permet de créer une archive tar et de la compresser avec bzip2 ?;) tar -cvjf archive.tar.bz2 /path/to/directory;) tar -cvzf archive.tar.gz /path/to/directory;) tar -cvf archive.tar.bz2 /path/to/directory;) tar -cvjf archive.bz2 /path/to/directory;a
+linux;Quelle option de la commande crontab permet de supprimer toutes les tâches cron de l'utilisateur courant ?;) -r;) -d;) -e;) -l;a
+linux;Quelle commande permet de vérifier l'utilisation du disque sous Linux ?;) df -h;) du -h;) ls -lh;) disk -h;a
+linux;Quel fichier de configuration est utilisé pour les règles persistantes du pare-feu sous Linux ?;) /etc/iptables/rules.v4;) /etc/sysconfig/iptables;) /etc/firewall/rules.conf;) /etc/network/iptables;b
+linux;Quelle commande permet d'afficher les informations sur les partitions du disque ?;) fdisk -l;) lsblk;) parted -l;) blkid;a
+linux;Quelle commande permet de redémarrer le système sous Linux ?;) reboot;) shutdown -r;) systemctl reboot;) restart;c
+linux;Quel fichier contient les informations de session pour ttyx et pts/x ?;) /var/run/utmp;) /var/log/wtmp;) /var/run/wtmp;) /var/log/utmp;a
+linux;Quelle commande permet d'assigner un terminal spécifique à une session utilisateur ?;) chvt;) tty;) setterm;) assignterm;a
+linux;Quelle commande permet d'afficher la mémoire utilisée et libre sous Linux ?;) free -h;) mem -h;) memfree -h;) memory -h;a
+linux;Quelle commande permet d'afficher les processus en cours sous Linux ?;) ps aux;) top;) htop;) all of the above;d
+linux;Quelle commande permet de redémarrer le service de gestion réseau sous Linux ?;) systemctl restart NetworkManager;) service restart network;) systemctl restart networking;) service restart NetworkManager;a
+linux;Quelle commande permet d'ajouter une nouvelle règle de pare-feu pour autoriser le trafic SSH ?;) iptables -A INPUT -p tcp --dport 22 -j ACCEPT;) iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT;) iptables -A FORWARD -p tcp --dport 22 -j ACCEPT;) iptables -A INPUT -p tcp --sport 22 -j ACCEPT;a
+Binaire;Combien d'octets composent une adresse IP ?;32;12;4;8;256;64;c
+binaire;Quelle est la valeur décimale de la représentation binaire 1010 ?;5;8;10;15;c
+binaire;Quelle est la représentation binaire de la valeur décimale 25 ?;11001;10011;10101;11101;b
+binaire;Quelle est l'adresse IPv4 réservée pour la boucle locale ?;192.168.1.1;127.0.0.1;10.0.0.1;172.16.0.1;b
+binaire;Quelle est la représentation binaire de l'adresse IPv4 192.168.1.10 ?;11000000.10101000.00000001.00001010;11000000.10101000.00000001.00001000;11000000.10101000.00000000.00001010;11000000.10101000.00000010.00001010;a
+binaire;Quelle est la signification de l'adresse IP 169.254.0.1 ?;Adresse IP publique;Adresse IP privée;Adresse IP APIPA;Adresse IP de boucle locale;c
+binaire;Combien de bits sont utilisés pour représenter une adresse IPv4 ?;32 bits;16 bits;8 bits;64 bits;a
+binaire;Quel est le masque de sous-réseau par défaut pour une adresse IPv4 de classe C ?;255.255.0.0;255.255.255.0;255.0.0.0;255.255.255.255;b
+binaire;Combien de sous-réseaux peut-on créer en utilisant un masque de sous-réseau de 255.255.255.224 ?;8;16;32;64;b
+binaire;Quel est le premier hôte d'un sous-réseau avec une adresse réseau de 192.168.1.0/27 ?;192.168.1.1;192.168.1.2;192.168.1.32;192.168.1.33;a
+binaire;Quel est le dernier hôte d'un sous-réseau avec une adresse réseau de 10.10.10.0/28 ?;10.10.10.14;10.10.10.15;10.10.10.30;10.10.10.31;b
+binaire;Quelle est la portée d'une adresse IP 172.16.0.1 avec un masque de sous-réseau de 255.255.0.0 ?;Réseau local;Sous-réseau;Internet;WAN;b
+binaire;Quelle est la forme binaire de l'adresse IP 255.255.255.0 ?;11111111.11111111.11111111.11111111;11111111.00000000.00000000.00000000;11111111.11111111.11111111.00000000;11111111.11111111.11111100.00000000;c
+binaire;Quelle est la signification de l'adresse IP 127.0.0.1 ?;Adresse IP privée;Adresse IP APIPA;Adresse IP de boucle locale;Adresse IP publique;c
+binaire;Quel est le premier hôte d'un sous-réseau avec une adresse réseau de 192.168.10.0/29 ?;192.168.10.1;192.168.10.2;192.168.10.6;192.168.10.7;a
+binaire;Quel est le dernier hôte d'un sous-réseau avec une adresse réseau de 172.16.0.0/23 ?;172.16.0.254;172.16.1.254;172.16.2.254;172.16.3.254;b
+binaire;Combien d'hôtes peuvent être connectés à un sous-réseau avec un masque de sous-réseau de 255.255.255.240 ?;14;15;16;30;a
+binaire;Quelle est la représentation binaire de l'adresse IPv4 10.0.0.0 ?;00001010.00000000.00000000.00000000;00001010.00000000.00000000.00000001;00001010.00000000.00000001.00000000;00001010.00000000.00000001.00000001;a
+binaire;Quelle est l'adresse réseau pour l'adresse IPv4 192.168.5.77 avec un masque de sous-réseau de 255.255.255.224 ?;192.168.5.0;192.168.5.32;192.168.5.64;192.168.5.96;a
+binaire;Quelle est la représentation binaire de l'adresse IPv4 172.16.31.5 ?;10101100.00010000.00011111.00000101;10101100.00010000.00011001.00000101;10101100.00010000.00011011.00000101;10101100.00011000.00011111.00000101;c
+binaire;Quelle est la signification de l'adresse IP 192.168.0.1 ?;Adresse IP APIPA;Adresse IP de boucle locale;Adresse IP publique;Adresse IP privée;d
+binaire;Combien d'octets sont utilisés pour représenter une adresse IPv4 ?;2;4;6;8;b
+binaire;Quelle est la représentation binaire de l'adresse IPv4 255.255.255.0 ?;11111111.11111111.11111111.00000000;11111111.11111111.11111110.00000000;11111111.11111111.11111100.00000000;11111111.11111111.11111000.00000000;a
+binaire;Quelle est l'adresse IP réservée pour les tests de boucle locale ?;127.0.0.1;192.168.1.1;10.0.0.1;172.16.0.1;a
+binaire;Quelle est la représentation décimale de l'adresse IP 11000000.10101000.00000001.00001010 ?;192.168.1.10;172.16.0.1;10.0.0.1;127.0.0.1;b
+binaire;Quelle est la plage d'adresses IP réservée pour les APIPA ?;169.254.0.0 - 169.254.0.255;169.254.0.1 - 169.254.0.254;169.254.0.1 - 169.254.255.254;169.254.0.0 - 169.254.255.255;d
+binaire;Quel est le nombre maximum d'hôtes pouvant être connectés à un sous-réseau avec un masque de sous-réseau /29 ?;6;8;14;16;c
+binaire;Quelle est la représentation binaire de l'adresse IPv4 192.168.10.5 ?;11000000.10101000.00001010.00000101;11000000.10101000.00001010.00000001;11000000.10101000.00000010.00000101;11000000.10101000.00000001.00000101;b
+binaire;Quelle est l'adresse réseau pour l'adresse IPv4 172.16.3.44 avec un masque de sous-réseau de 255.255.255.240 ?;172.16.3.0;172.16.3.16;172.16.3.32;172.16.3.48;a
+binaire;Quelle est la représentation binaire de l'adresse IPv4 10.10.10.10 ?;00001010.00001010.00001010.00001010;00001010.00001010.00001010.00001000;00001010.00001010.00001010.00000010;00001010.00001010.00001000.00001010;a
+binaire;Quelle est la signification de l'adresse IP 192.168.1.1 ?;Adresse IP de boucle locale;Adresse IP publique;Adresse IP APIPA;Adresse IP privée;d
+binaire;Combien de bits sont utilisés pour représenter un octet ?;4 bits;8 bits;16 bits;32 bits;b
+binaire;Quelle est la représentation binaire de l'adresse IPv4 172.16.0.0 ?;10101100.00000000.00000000.00000000;10101100.00010000.00000000.00000000;10101100.00010000.00000001.00000000;10101100.00000000.00000001.00000000;a
+binaire;Quelle est la représentation décimale de l'adresse IP 11111111.11111111.11111111.00000000 ?;255.255.255.0;255.255.255.255;255.255.255.254;255.255.255.252;a
+binaire;Quelle est la portée d'une adresse IP 10.0.0.1 avec un masque de sous-réseau de 255.255.255.0 ?;WAN;Sous-réseau;Internet;Réseau local;d
+binaire;Quelle est la première adresse disponible dans le sous-réseau 192.168.1.0/24 ?;192.168.1.0;192.168.1.1;192.168.1.2;192.168.1.255;b
+binaire;Quel est le dernier hôte d'un sous-réseau avec une adresse réseau de 172.16.0.0/22 ?;172.16.3.254;172.16.1.254;172.16.2.254;172.16.3.255;a
+binaire;Combien de sous-réseaux peut-on créer avec un masque de sous-réseau /26 ?;2;4;8;16;d
+binaire;Quelle est la représentation binaire de l'adresse IPv4 192.168.1.0 ?;11000000.10101000.00000001.00000000;11000000.10101000.00000000.00000000;11000000.10101000.00000001.00000001;11000000.10101000.00000000.00000001;b
+binaire;Quelle est l'adresse réseau pour l'adresse IPv4 10.0.0.77 avec un masque de sous-réseau de 255.255.255.128 ?;10.0.0.0;10.0.0.64;10.0.0.128;10.0.0.192;a
+binaire;Quelle est la représentation décimale de l'adresse IP 10101100.00010000.00011111.00000101 ?;172.16.31.5;192.168.1.1;10.0.0.1;255.255.255.255;a
+binaire;Quelle est la signification de l'adresse IP 169.254.0.1 ?;Adresse IP APIPA;Adresse IP de boucle locale;Adresse IP publique;Adresse IP privée;a
+binaire;Combien d'octets sont utilisés pour représenter une adresse IPv4 ?;2;4;6;8;b
+binaire;Quelle est la représentation binaire de l'adresse IPv4 255.255.255.0 ?;11111111.11111111.11111111.00000000;11111111.11111111.11111110.00000000;11111111.11111111.11111100.00000000;11111111.11111111.11111000.00000000;a
+binaire;Quel est l'adresse IP réservée pour les tests de boucle locale ?;127.0.0.1;192.168.1.1;10.0.0.1;172.16.0.1;a
+binaire;Quelle est la représentation décimale de l'adresse IP 11000000.10101000.00000001.00001010 ?;192.168.1.10;172.16.0.1;10.0.0.1;127.0.0.1;b
+binaire;Quelle est la plage d'adresses IP réservée pour les APIPA ?;169.254.0.0 - 169.254.0.255;169.254.0.1 - 169.254.0.254;169.254.0.1 - 169.254.255.254;169.254.0.0 - 169.254.255.255;d
+binaire;Quel est le nombre maximum d'hôtes pouvant être connectés à un sous-réseau avec un masque de sous-réseau /29 ?;6;8;14;16;c
+binaire;Quelle est la représentation binaire de l'adresse IPv4 192.168.10.5 ?;11000000.10101000.00001010.00000101;11000000.10101000.00001010.00000001;11000000.10101000.00000010.00000101;11000000.10101000.00000001.00000101;b
+binaire;Quelle est l'adresse réseau pour l'adresse IPv4 172.16.3.44 avec un masque de sous-réseau de 255.255.255.240 ?;172.16.3.0;172.16.3.16;172.16.3.32;172.16.3.48;a
+binaire;Quelle est l'adresse réseau pour l'adresse IPv4 172.16.3.44 avec un masque de sous-réseau de 255.255.255.240 ?;172.16.3.0;172.16.3.16;172.16.3.32;172.16.3.48;a;a
+binaire;Quel est l'avantage de réaliser des check-lists assistées par Nagios ?;a) Automatiser les vérifications;b) Améliorer la précision des vérifications;c) Réduire le temps de maintenance;Toutes les réponses ci-dessus
+binaire;Quel est l'avantage de réaliser des check-lists assistées par Nagios ?;a) Automatiser les vérifications;b) Améliorer la précision des vérifications;c) Réduire le temps de maintenance;Toutes les réponses ci-dessus;d
+Général;Quelles sont les 3 principales caractéristiques matérielles que vont déterminer la performance d'un pc ?;Carte réseaux;Vitesse du microprocesseur;La version du bios;La quatité de RAM;Le système d'exploitation;La capacité de stockage;Le type de clavier;bdf
+Général;Quand on parle généralement de la mémoire d'un pc on parle de la ?;RAM;ROM;A
+Général;Quel est le type de mémoire qui s'efface quand on éteint l'ordinateur ?;RAM;ROM;A
+Général;A quoi correspond 1024 octets ?;1KO;2MO;1TO;1GO;3.2GO;2PO;A
+Général;A quoi correspond 1024 GO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;C
+Général;A quoi correspond 1024 MO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;d
+Général;A quoi correspond 2048 KO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;b
+Général;A quoi correspond 3624 MO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;e
+Général;A quoi correspond 2048 TO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;f
+Général;A quoi servent les ports PCI et PCI Express sur une carte mère;Améliorer la vitesse du procésseur;insérer des extensions pour ajouter des fonctionnalitées supplémentaires;insérer des barettes de RAM;insérer une clé USB;b
+Général;quelle est la différence principales entre un port PCI et PCI Express ?;la vitesse de transfert;la taille de la RAM;la version du bios;a
+Général;Citer les différents cables qui servent à relier une carte graphique à un écran ?;RJ45;Sata;VGA;USB;DVI;ce
+Anglais;que signifie : Please remove this media;S'il vous plait redémarrez windows;S'il vous plait retirez ce média;Merci d'éteindre l'ordinateur;b
+Anglais;que signifie : Press any key to continue;Appuyez sur n'imposte qu'elle touche pour continuer;Appuyer sur entrée pour redémarrer;S'il vous plait redémarrez windows;S'il vous plait retirez ce média;Merci d'éteindre l'ordinateur;b
+Réseaux;A quoi sert un masque de sous réseau ?;Masquer le réseau local;délimiter la partie réseau de la partie machine d'une ip;accéder à internet par satellite;b
+Réseaux;Par quoi peut on identifier un matériel d'un autre sur un réseau local ?;son adresse physique;son adresse IP;son poids;sa capacité de RAM;b
+Réseaux;Quel est l'adressage courant d'un sous réseaux de classe C ?;192.168.xxx;172.xxx;10.xxx;255.255.xxx;A
+Réseaux;Comment nomme t-on le parametre d'une carte réseau d'une machine virtuelle qui utilise la carte du pc physique hôte ?;NAT;Bridge;Host;b
+Réseaux;Le protocole ssh est-il sécurisé ?;oui;non;A
+Réseaux;Qu'elle est la variante non sécurisée du protocole SSH ?;tenet;netadmin;telnet;IMAP;c
+Réseaux;Que se passe t-il si aucune passerelle n'est définie sur la carte réseau ?;je n'ai plus accès au réseau local mais internet oui;j'ai accès à tout comme si de rien;j'ai accès à rien du tout;j'ai accès au réseau local mais pas internet;d
 Réseaux;Qu'est-ce qu'un sous-réseau ?;Un réseau connecté à un autre réseau;Une subdivision d'un réseau plus large;Un routeur principal;Une connexion Ethernet;b
 Réseaux;Quelle est la principale raison de diviser un réseau en sous-réseaux ?;Augmenter le nombre d'adresses IP disponibles;Réduire la congestion du réseau;Améliorer la sécurité du réseau;Faciliter la configuration des routeurs;b
 Réseaux;Quel est le principal avantage d'un masque de sous-réseau ?;Définir le nombre d'adresses IP dans un sous-réseau;Contrôler l'accès au réseau;Améliorer la vitesse de transmission des données;Fournir une connexion sans fil sécurisée;a
@@ -178,6 +227,108 @@ Réseaux;Combien de bits de sous-réseau sont alloués dans un masque de sous-r�
 Réseaux;Quelle est la première adresse IP disponible dans un sous-réseau avec un masque de 255.255.255.248 ?;192.168.1.0;192.168.1.8;192.168.1.16;192.168.1.32;a
 Réseaux;Quelle est la dernière adresse IP disponible dans un sous-réseau avec un masque de 255.255.255.248 ?;192.168.1.254;192.168.1.255;192.168.1.62;192.168.1.63;d
 Réseaux;Quelle est la taille du sous-réseau avec un masque de 255.255.255.252 ?;2 adresses IP;4 adresses IP;6 adresses IP;8 adresses IP;b
+réseaux;Quel type de réseau couvre une petite zone géographique comme un bureau ou un bâtiment ?;LAN;MAN;WAN;PAN;a
+réseaux;Quel type de réseau couvre une grande ville ou une métropole ?;LAN;MAN;WAN;CAN;b
+réseaux;Quel type de réseau couvre des zones géographiques étendues, souvent à l'échelle d'un pays ou d'un continent ?;LAN;MAN;WAN;PAN;c
+réseaux;Quelle topologie de réseau relie chaque nœud à un seul autre nœud, formant une chaîne continue ?;Topologie en bus;Topologie en étoile;Topologie en anneau;Topologie en arbre;c
+réseaux;Quelle topologie de réseau connecte tous les nœuds à un seul point central ?;Topologie en bus;Topologie en étoile;Topologie en anneau;Topologie en maillage;b
+réseaux;Quelle topologie de réseau utilise un seul câble pour connecter tous les nœuds ?;Topologie en bus;Topologie en étoile;Topologie en anneau;Topologie en arbre;a
+réseaux;Dans quelle topologie de réseau chaque nœud est connecté à chaque autre nœud ?;Topologie en bus;Topologie en étoile;Topologie en anneau;Topologie en maillage;d
+réseaux;Quel type d'organisation réseau n'a pas de serveur dédié et où tous les postes sont égaux ?;Client/Serveur;Poste à Poste;Point à Point;Maître/Esclave;b
+réseaux;Quel type d'organisation réseau a des postes clients qui accèdent aux services d'un ou plusieurs serveurs ?;Poste à Poste;Client/Serveur;Point à Point;Maître/Esclave;b
+réseaux;Quel protocole de transport est orienté connexion et garantit la livraison des paquets ?;) TCP;) UDP;) IP;) ICMP;a
+réseaux;Quel protocole de transport est non orienté connexion et ne garantit pas la livraison des paquets ?;) TCP;) UDP;) IP;) ICMP;b
+réseaux;Dans quel modèle TCP/IP trouve-t-on le protocole IP ?;) Application;) Transport;) Internet;) Accès réseau;c
+réseaux;Combien de couches comporte le modèle OSI ?;) 4;) 5;) 6;) 7;d
+réseaux;Quelle est la première couche du modèle OSI ?;) Physique;) Liaison de données;) Réseau;) Transport;a
+réseaux;Quelle couche du modèle OSI est responsable de l'acheminement des paquets entre les réseaux ?;) Liaison de données;) Réseau;) Transport;) Session;b
+réseaux;Quelle couche du modèle OSI est responsable de la gestion des connexions de bout en bout ?;) Réseau;) Transport;) Session;) Présentation;b
+réseaux;Quelle couche du modèle OSI gère les formats de données et la cryptographie ?;) Application;) Transport;) Présentation;) Session;c
+réseaux;Quelle couche du modèle OSI est responsable des interfaces utilisateur et des protocoles de communication de haut niveau ?;) Application;) Présentation;) Session;) Transport;a
+réseaux;Quel protocole est utilisé pour la résolution d'adresses IP en adresses MAC ?;) ARP;) RARP;) DHCP;) DNS;a
+réseaux;Quel protocole est utilisé pour la résolution d'adresses IP en adresses MAC dans le modèle OSI ?;) Application;) Transport;) Réseau;) Liaison de données;d
+réseaux;Quel protocole attribue dynamiquement des adresses IP aux dispositifs dans un réseau ?;) ARP;) RARP;) DHCP;) DNS;c
+réseaux;Quel protocole convertit les noms de domaine en adresses IP ?;) ARP;) RARP;) DHCP;) DNS;d
+réseaux;Quelle est la couche d'accès réseau dans le modèle TCP/IP responsable de ?;) Le routage des paquets;) La gestion des connexions;) La transmission physique des données;) Le chiffrement des données;c
+réseaux;Quel protocole est utilisé pour envoyer des courriels ?;) FTP;) HTTP;) SMTP;) SNMP;c
+réseaux;Quel protocole est utilisé pour transférer des fichiers entre un client et un serveur ?;) FTP;) HTTP;) SMTP;) SNMP;a
+réseaux;Quel protocole est utilisé pour accéder à des pages web ?;) FTP;) HTTP;) SMTP;) SNMP;b
+réseaux;Quel protocole est utilisé pour la gestion des réseaux et la surveillance des dispositifs réseau ?;) FTP;) HTTP;) SMTP;) SNMP;d
+réseaux;Quel est le numéro de port utilisé par le protocole HTTP ?;) 20;) 21;) 80;) 443;c
+réseaux;Quel est le numéro de port utilisé par le protocole HTTPS ?;) 20;) 21;) 80;) 443;d
+réseaux;Quel est le numéro de port utilisé par le protocole FTP ?;) 20 et 21;) 22 et 23;) 25 et 26;) 80 et 81;a
+réseaux;Quel est le numéro de port utilisé par le protocole SMTP ?;) 25;) 53;) 110;) 143;a
+réseaux;Quel est le numéro de port utilisé par le protocole DNS ?;) 25;) 53;) 110;) 143;b
+réseaux;Quelle couche du modèle OSI est responsable de l'encapsulation des données en trames ?;) Réseau;) Transport;) Liaison de données;) Physique;c
+réseaux;Quelle couche du modèle OSI est responsable de la segmentation des données ?;) Réseau;) Transport;) Session;) Présentation;b
+réseaux;Quelle couche du modèle OSI est responsable de l'établissement, de la gestion et de la terminaison des sessions entre les applications ?;) Réseau;) Transport;) Session;) Présentation;c
+réseaux;Quelle couche du modèle OSI est responsable de la représentation, de l'encodage et du chiffrement des données ?;) Application;) Présentation;) Session;) Transport;b
+réseaux;Quel protocole de la couche Transport du modèle TCP/IP assure la livraison fiable des paquets ?;) TCP;) UDP;) IP;) ICMP;a
+réseaux;Quel protocole de la couche Transport du modèle TCP/IP est utilisé pour les communications en temps réel où la vitesse est plus importante que la fiabilité ?;) TCP;) UDP;) IP;) ICMP;b
+réseaux;Quelle couche du modèle OSI interagit directement avec le matériel réseau ?;) Application;) Réseau;) Transport;) Physique;d
+réseaux;Quel protocole de la couche Internet du modèle TCP/IP est responsable de l'adressage et du routage des paquets ?;) TCP;) UDP;) IP;) ICMP;c
+réseaux;Quelle couche du modèle OSI fournit des services aux applications et définit les protocoles de communication de haut niveau ?;) Application;) Présentation;) Session;) Transport;a
+réseaux;Quel dispositif réseau fonctionne principalement à la couche Réseau du modèle OSI ?;) Commutateur (Switch);) Routeur (Router);) Concentrateur (Hub);) Point d'accès (Access Point);b
+réseaux;Quel dispositif réseau fonctionne principalement à la couche Liaison de données du modèle OSI ?;) Commutateur (Switch);) Routeur (Router);) Concentrateur (Hub);) Modem;a
+réseaux;Quel dispositif réseau fonctionne principalement à la couche Physique du modèle OSI ?;) Commutateur (Switch);) Routeur (Router);) Concentrateur (Hub);) Point d'accès (Access Point);c
+réseaux;Quel type de réseau est utilisé pour relier des dispositifs dans un rayon personnel, souvent avec des technologies sans fil comme Bluetooth ?;) LAN;) MAN;) WAN;) PAN;d
+réseaux;Quel protocole est utilisé pour l'accès sécurisé à distance des réseaux ?;) FTP;) Telnet;) SSH;) SNMP;c
+réseaux;Quel est l'acronyme de MTU ?;) Maximum Transfer Unit;) Maximum Transmission Unit;) Minimum Transfer Unit;) Minimum Transmission Unit;b
+réseaux;Quel type d'adresse IPv4 est attribuée manuellement par un administrateur réseau ?;) Statique;) Dynamique;) Privée;) Publique;a
+réseaux;Quel type d'adresse IPv4 est attribuée automatiquement par un serveur DHCP ?;) Statique;) Dynamique;) Privée;) Publique;b
+réseaux;Quel protocole est utilisé pour résoudre les noms de domaine en adresses IP ?;) DNS;) DHCP;) ARP;) ICMP;a
+réseaux;Quel port est utilisé par le protocole HTTP ?;20;21;80;443;c
+réseaux;Quel port est utilisé par le protocole HTTPS ?;80;443;22;25;b
+réseaux;Quel port est utilisé par le protocole TELNET ?;21;22;23;25;c
+réseaux;Quel port est utilisé par le protocole SSH ?;20;21;22;23;c
+réseaux;Quelle commande Linux permet de se connecter à un serveur via SSH ?;telnet [adresse IP];ssh [adresse IP];connect [adresse IP];login [adresse IP];b
+réseaux;Quelle commande Windows permet de se connecter à un serveur via TELNET ?;ssh [adresse IP];telnet [adresse IP];connect [adresse IP];login [adresse IP];b
+réseaux;Quel port est utilisé par défaut pour une connexion PuTTY via SSH ?;21;22;23;25;b
+réseaux;Quel port est utilisé par défaut pour une connexion PuTTY via TELNET ?;21;22;23;25;c
+réseaux;Quel protocole utilise un port non sécurisé pour la transmission de données textuelles ?;HTTP;HTTPS;SSH;SFTP;a
+réseaux;Quel protocole utilise un port sécurisé pour la transmission de données chiffrées ?;) HTTP;) HTTPS;) FTP;) TELNET;b
+réseaux;Quelle commande Windows permet de lancer une session TELNET ?;) ssh [adresse IP];) telnet [adresse IP];) connect [adresse IP];) login [adresse IP];b
+réseaux;Quelle commande Linux permet de vérifier l'ouverture d'un port ?;) telnet [adresse IP] [port];) ping [adresse IP] [port];) nc -zv [adresse IP] [port];) ssh [adresse IP] [port];c
+réseaux;Quelle commande Windows permet de vérifier l'ouverture d'un port ?;) ping [adresse IP] [port];) telnet [adresse IP] [port];) connect [adresse IP] [port];) login [adresse IP] [port];b
+réseaux;Quel protocole est principalement utilisé pour l'administration distante sécurisée des serveurs ?;) HTTP;) TELNET;) SSH;) FTP;c
+réseaux;Quel protocole est principalement utilisé pour l'administration distante non sécurisée des serveurs ?;) HTTP;) TELNET;) SSH;) FTP;b
+réseaux;Quel protocole est utilisé pour la navigation web sécurisée ?;) HTTP;) HTTPS;) FTP;) TELNET;b
+réseaux;Quelle commande permet de générer une clé SSH sous Linux ?;) ssh-keygen;) ssh-key-create;) keygen-ssh;) create-key-ssh;a
+réseaux;Quelle option de PuTTY est utilisée pour spécifier le type de connexion ?;) Host Name;) Port;) Connection type;) Terminal;c
+réseaux;Quel protocole utilise les commandes GET et POST ?;) TELNET;) SSH;) HTTP;) FTP;c
+réseaux;Quelle commande permet de tester une connexion HTTP sous Linux ?;) curl [URL];) wget [URL];) http [URL];) netcat [URL];a
+réseaux;Quelle commande permet de tester une connexion HTTPS sous Linux ?;) curl -k https://[URL];) wget --no-check-certificate https://[URL];) openssl s_client -connect [URL]:443;) all of the above;d
+réseaux;Quel protocole utilise des certificats SSL/TLS pour sécuriser les communications ?;) HTTP;) HTTPS;) TELNET;) FTP;b
+réseaux;Quelle commande Windows permet de copier des fichiers via SSH ?;) ftp;) scp;) sftp;) rsync;b
+réseaux;Quel protocole permet de copier des fichiers de manière sécurisée entre deux hôtes ?;) FTP;) SCP;) TELNET;) HTTP;b
+réseaux;Quelle commande permet de lancer une session SSH en utilisant une clé privée sous Linux ?;) ssh -i [chemin_vers_cle] [adresse IP];) ssh -key [chemin_vers_cle] [adresse IP];) ssh -p [chemin_vers_cle] [adresse IP];) ssh -private [chemin_vers_cle] [adresse IP];a
+réseaux;Quel protocole est utilisé par PuTTY pour les connexions sécurisées ?;) TELNET;) SSH;) HTTP;) FTP;b
+réseaux;Quel port est utilisé par défaut pour une connexion SCP ?;) 20;) 21;) 22;) 23;c
+réseaux;Quel protocole est utilisé pour les connexions sécurisées avec PuTTY ?;) TELNET;) SSH;) FTP;) HTTP;b
+réseaux;Quelle commande permet d'envoyer une requête HTTP GET sous Linux ?;) curl -X GET [URL];) wget --method=GET [URL];) http -method GET [URL];) netcat -GET [URL];a
+réseaux;Quelle commande permet d'envoyer une requête HTTP POST sous Linux ?;) curl -X POST [URL];) wget --method=POST [URL];) http -method POST [URL];) netcat -POST [URL];a
+réseaux;Quelle commande permet de vérifier la connectivité d'un hôte distant via SSH sous Windows ?;) ssh [adresse IP];) telnet [adresse IP];) connect [adresse IP];) login [adresse IP];a
+réseaux;Quel outil peut être utilisé pour des connexions sécurisées via SSH sur Windows ?;) PowerShell;) Command Prompt;) PuTTY;) Telnet Client;c
+réseaux;Quel outil peut être utilisé pour des connexions TELNET sur Windows ?;) PowerShell;) Command Prompt;) PuTTY;) Telnet Client;c
+réseaux;Quelle commande permet de transférer un fichier via SSH sous Linux ?;) scp [chemin_vers_fichier] [utilisateur]@[adresse IP]:[chemin_destination];) cp [chemin_vers_fichier] [utilisateur]@[adresse IP]:[chemin_destination];) mv [chemin_vers_fichier] [utilisateur]@[adresse IP]:[chemin_destination];) rsync [chemin_vers_fichier] [utilisateur]@[adresse IP]:[chemin_destination];a
+réseaux;Quel outil sous Windows permet de créer des clés SSH ?;) PowerShell;) Command Prompt;) PuTTYgen;) Telnet Client;c
+réseaux;Quel outil est utilisé pour transférer des fichiers de manière sécurisée sous Windows ?;) FTP;) SCP;) PuTTY;) PowerShell;b
+réseaux;Quelle commande Linux permet de planifier une tâche utilisant un protocole réseau ?;) crontab -e;) at;) ssh [adresse IP];) telnet [adresse IP];a
+réseaux;Quelle commande Linux permet de vérifier l'ouverture d'un port spécifique sur un serveur distant ?;) netstat;) nc -zv [adresse IP] [port];) lsof;) ps aux;b
+réseaux;Quel protocole est utilisé pour l'accès non sécurisé aux applications web ?;) FTP;) TELNET;) HTTP;) SSH;c
+réseaux;Quelle commande Linux permet de se connecter à un serveur via TELNET ?;) telnet [adresse IP];) ssh [adresse IP];) connect [adresse IP];) login [adresse IP];a
+réseaux;Quelle commande Windows permet de générer une paire de clés SSH ?;) ssh-keygen;) ssh-key-create;) keygen-ssh;) create-key-ssh;a
+réseaux;Quel protocole est principalement utilisé pour le transfert de fichiers de manière sécurisée ?;) HTTP;) FTP;) SCP;) TELNET;c
+réseaux;Quel outil peut être utilisé pour des connexions SSH sur Linux ?;) telnet;) ssh;) ftp;) scp;b
+réseaux;Quelle commande permet de vérifier l'ouverture du port 80 sur un serveur distant sous Linux ?;) nc -zv [adresse IP] 80;) ssh [adresse IP] 80;) telnet [adresse IP] 80;) ping [adresse IP] 80;a
+réseaux;Quel protocole est utilisé pour des connexions sécurisées avec PuTTY ?;) TELNET;) SSH;) FTP;) HTTP;b
+réseaux;Quelle commande permet de lister les ports ouverts sur un serveur distant sous Linux ?;) netstat -tuln;) lsof -i;) ss -tuln;) all of the above;d
+réseaux;Quelle commande Linux permet d'arrêter un service utilisant un port spécifique ?;) systemctl stop [nom_du_service];) service [nom_du_service] stop;) kill [PID];) all of the above;d
+réseaux;Quel protocole est utilisé pour l'administration distante sécurisée des serveurs ?;) HTTP;) TELNET;) SSH;) FTP;c
+réseaux;Quelle commande permet de tester une connexion HTTPS sous Windows ?;) curl -k https://[URL];) wget --no-check-certificate https://[URL];) openssl s_client -connect [URL]:443;) all of the above;d
+réseaux;Quel outil sous Linux permet de gérer les connexions réseau ?;) netstat;) nc;) ssh;) all of the above;d
+Windows;Quelles sont les 2 méthodes pour obtenir de l'aide sur windows ?;commande --help;commande /?;man commande;help commande;bd
+Windows;Quelle est la commande pour afficher son adresse IP dans le terminal de commande ?;print ip;config ip;ifconfig;ipconfig;d
 Windows;Quelle est la version la plus récente du système d'exploitation Windows ?;Windows 7;Windows 8;Windows 10;Windows XP;c
 Windows;Quelle est la principale fonctionnalité du Panneau de configuration de Windows ?;Gérer les programmes installés;Personnaliser les paramètres système;Analyser les performances du processeur;Créer des documents texte;b
 Windows;Quelle est la combinaison de touches pour ouvrir le Gestionnaire des tâches dans Windows ?;Ctrl + Alt + Suppr;Alt + F4;Win + R;Ctrl + Shift + Esc;d
@@ -279,6 +430,7 @@ Virtualisation;Quelle est la fonction principale de la migration en direct (live
 Virtualisation;Qu'est-ce que la tolérance de panne (fault tolerance) dans la virtualisation ?;La capacité d'une machine virtuelle à résister à un arrêt imprévu sans perte de données;La duplication automatique des machines virtuelles sur plusieurs serveurs pour assurer la disponibilité;La récupération automatique des machines virtuelles après un crash du système;La sauvegarde régulière des machines virtuelles sur un stockage externe;b
 Virtualisation;Qu'est-ce que la migration à chaud (hot migration) dans la virtualisation ?;Le déplacement d'une machine virtuelle vers un autre serveur sans interruption de service;La conversion d'une machine virtuelle en une image disque;La mise à jour automatique des logiciels sur une machine virtuelle;La copie des données d'une machine virtuelle vers un stockage externe;a
 Virtualisation;Qu'est-ce que l'overcommitment dans la virtualisation ?;Le fait d'allouer plus de ressources matérielles que disponibles aux machines virtuelles;La réduction de la capacité de stockage des serveurs virtuels;La limitation de l'accès aux ressources réseau des machines virtuelles;La suppression des machines virtuelles inutilisées;a
+Virtualisation;Lors de la création d'une VM, que signifie un disque dur virtuel dynamique ?;il n'y a pas de disque, tout est dans la ram;le disque est créé avec sa capacité maximale;le disque est créé mais sa capacité augmentera progressivement en fonction de son utilisaton;c'est un disque dur physique qui est dédié exclusivement à la VM;C
 matos_réseaux;Qu'est-ce qu'un commutateur réseau ?;Un dispositif qui relie plusieurs réseaux entre eux;Un dispositif qui relie plusieurs ordinateurs au sein d'un même réseau;Un dispositif qui filtre et transfère les paquets de données entre différents réseaux;Un dispositif qui convertit les signaux analogiques en signaux numériques;b
 matos_réseaux;Quel est le principal avantage d'un commutateur par rapport à un concentrateur (hub) ?;Les commutateurs peuvent transférer des données à des vitesses plus élevées;Les commutateurs sont moins chers que les concentrateurs;Les commutateurs peuvent connecter des réseaux sans fil;Les commutateurs sont plus faciles à configurer que les concentrateurs;a
 matos_réseaux;Quel dispositif est utilisé pour connecter différents réseaux ensemble ?;Commutateur;Concentrateur (hub);Routeur;Pont (bridge);c
@@ -329,206 +481,6 @@ matos_réseaux;Qu'est-ce qu'un modem ?;Un dispositif qui relie plusieurs ordinat
 matos_réseaux;Qu'est-ce qu'une carte réseau (NIC) ?;Un dispositif qui relie plusieurs réseaux entre eux;Un dispositif qui convertit les signaux analogiques en signaux numériques pour la transmission sur les lignes téléphoniques;Un dispositif qui permet à un ordinateur de se connecter à un réseau;Un dispositif qui filtre et transfère les paquets de données entre différents réseaux;c
 matos_réseaux;Quelle est la fonction principale d'une carte réseau ?;Gérer les adresses IP des ordinateurs sur le réseau;Fournir une connexion Internet haut débit;Convertir les signaux numériques en signaux analogiques pour la transmission;Permettre la transmission et la réception de données sur un réseau;d
 matos_réseaux;Qu'est-ce qu'un firewall ?;Un dispositif qui bloque les virus et les logiciels malveillants sur le réseau;Un dispositif qui assure la sécurité des réseaux sans fil;Un dispositif qui filtre le trafic réseau pour protéger le réseau contre les attaques;Un dispositif qui permet de connecter plusieurs ordinateurs au sein d'un même réseau filaire;c
-Active_directory;Qu'est-ce qu'une GPO dans un environnement Active Directory ?;Group Policy Object;General Policy Objective;Group Program Operation;General Program Object;a
-Active_directory;Quelle commande permet de mettre à jour les stratégies de groupe sur un poste client ?;gpupdate /force;gpupdate /refresh;gpo /update;gpo /force;a
-Active_directory;Où se trouve le gestionnaire des stratégies de groupe dans Windows Server ?;Panneau de configuration;Outils d'administration;Gestionnaire de serveur;Invite de commandes;b
-Active_directory;Quel type de GPO est lié directement à un utilisateur ou à un ordinateur spécifique ?;Local GPO;Site GPO;Domain GPO;Organizational Unit GPO;a
-Active_directory;Quelle est la fonction principale d'un serveur DNS dans un réseau ?;Distribuer les adresses IP;Traduire les noms de domaine en adresses IP;Gérer les accès réseau;Contrôler les imprimantes réseau;b
-Active_directory;Quel outil est utilisé pour configurer un serveur DNS sous Windows Server ?;DNS Manager;DHCP Manager;Network Manager;IP Manager;a
-Active_directory;Quel type de zone DNS permet une résolution de nom dans les deux sens (avant et arrière) ?;Zone principale;Zone secondaire;Zone de stub;Zone de recherche inversée;d
-Active_directory;Qu'est-ce qu'un enregistrement A dans une zone DNS ?;Un enregistrement de machine virtuelle;Un enregistrement de service;Un enregistrement d'adresse IPv4;Un enregistrement d'adresse IPv6;c
-Active_directory;À quoi sert le serveur DHCP dans un réseau ?;Assigner automatiquement des adresses IP aux périphériques;Traduire les noms de domaine en adresses IP;Filtrer les paquets réseau;Fournir une connexion Internet;a
-Active_directory;Quelle option du serveur DHCP permet de spécifier la passerelle par défaut pour les clients DHCP ?;) Option 1;) Option 3;) Option 6;) Option 15;b
-Active_directory;Quelle commande permet de vérifier les baux DHCP actifs sur un serveur Windows ?;) ipconfig /leases;) netsh dhcp show leases;) dhcp show active;) netsh show dhcp;b
-Active_directory;Comment appelle-t-on un serveur DHCP configuré pour fournir des adresses IP à plusieurs sous-réseaux ?;) DHCP relay;) DHCP server;) DHCP client;) DHCP scope;a
-Active_directory;Quelle est la durée par défaut d'un bail DHCP dans Windows Server ?;) 4 heures;) 8 heures;) 24 heures;) 8 jours;d
-Active_directory;Quelle GPO peut être utilisée pour rediriger les dossiers utilisateurs (Documents, Bureau, etc.) vers un partage réseau ?;) GPO de sécurité;) GPO de dossier;) GPO de redirection de dossiers;) GPO de réseau;c
-Active_directory;Comment une GPO est-elle appliquée par défaut dans un domaine Active Directory ?;) Site, Domaine, OU;) OU, Domaine, Site;) Domaine, OU, Site;) Site, OU, Domaine;a
-Active_directory;Quel enregistrement DNS est utilisé pour les services de messagerie ?;) Enregistrement A;) Enregistrement CNAME;) Enregistrement MX;) Enregistrement TXT;c
-Active_directory;Quelle est la portée d'une GPO liée à une unité d'organisation (OU) ?;) Tous les utilisateurs et ordinateurs du domaine;) Tous les utilisateurs et ordinateurs de l'OU spécifiée;) Tous les utilisateurs et ordinateurs du site;) Tous les ordinateurs seulement;b
-Active_directory;Comment se nomme la base de données où sont stockées les informations DNS sur Windows Server ?;) DNS.dit;) dns.mdb;) dns.srv;) DNS Manager;a
-Active_directory;Quel protocole est utilisé par le service DHCP pour assigner des adresses IP ?;) TCP;) UDP;) ICMP;) HTTP;b
-Active_directory;Quel type de zone DNS est une copie en lecture seule d'une zone principale située sur un autre serveur ?;) Zone principale;) Zone secondaire;) Zone de stub;) Zone dynamique;b
-Active_directory;Quel outil permet de créer et gérer les GPO dans Windows Server ?;) Active Directory Users and Computers;) Group Policy Management Console;) Server Manager;) Control Panel;b
-Active_directory;Quelle commande permet de vérifier les enregistrements DNS sur un poste client Windows ?;) nslookup;) ipconfig /all;) ping;) tracert;a
-Active_directory;Quel est le rôle d'un enregistrement CNAME dans une zone DNS ?;) Associer un alias à un nom de domaine canonique;) Fournir une adresse IP pour un nom de domaine;) Spécifier le serveur de messagerie;) Indiquer le serveur autoritaire;a
-Active_directory;Quelle option du serveur DHCP spécifie les serveurs DNS pour les clients ?;) Option 1;) Option 3;) Option 6;) Option 15;c
-Active_directory;Quel enregistrement DNS est utilisé pour identifier le serveur autoritaire pour une zone DNS ?;) Enregistrement A;) Enregistrement MX;) Enregistrement CNAME;) Enregistrement SOA;d
-Active_directory;Quelle commande permet de forcer la réplication des GPO dans un domaine Active Directory ?;) gpupdate /force;) repadmin /syncall;) gpo /replicate;) gpresult /r;b
-Active_directory;Quel enregistrement DNS permet de spécifier les services disponibles dans un domaine ?;) Enregistrement A;) Enregistrement SRV;) Enregistrement MX;) Enregistrement PTR;b
-Active_directory;Quel est le port par défaut utilisé par le service DNS ?;) Port 80;) Port 443;) Port 53;) Port 25;c
-Active_directory;Quel type de GPO s'applique à tous les utilisateurs et ordinateurs d'un domaine Active Directory ?;) Local GPO;) Domain GPO;) OU GPO;) Site GPO;b
-Active_directory;Quel enregistrement DNS est utilisé pour la résolution inversée (adresse IP vers nom de domaine) ?;) Enregistrement A;) Enregistrement PTR;) Enregistrement MX;) Enregistrement SRV;b
-Active_directory;Quelle est la commande pour afficher la configuration réseau complète sur un poste Windows ?;) ipconfig /display;) netstat -a;) ipconfig /all;) nslookup;c
-Active_directory;Quel outil permet de surveiller et de gérer les baux DHCP sur un serveur Windows ?;) DHCP Manager;) IP Address Manager;) DNS Manager;) Network Monitor;a
-Active_directory;Comment appelle-t-on le processus de mise à jour d'un serveur DNS secondaire à partir du serveur DNS primaire ?;) Réplication;) Synchronisation;) Transfert de zone;) Diffusion;c
-Active_directory;Quelle est la portée d'une GPO liée à un site dans Active Directory ?;) Tous les utilisateurs et ordinateurs du site spécifié;) Tous les utilisateurs et ordinateurs du domaine;) Tous les utilisateurs et ordinateurs de l'OU;) Tous les utilisateurs seulement;a
-Active_directory;Quelle est la commande pour libérer et renouveler l'adresse IP d'un client DHCP sous Windows ?;) ipconfig /release et ipconfig /renew;) ipconfig /renew et ipconfig /refresh;) netsh dhcp release et netsh dhcp renew;) netsh ip release et netsh ip renew;a
-Active_directory;Quel est le fichier de base de données principal utilisé par le service DHCP sur un serveur Windows ?;) dhcp.mdb;) dhcp.dit;) dhcp.srv;) dhcp.xml;a
-Active_directory;Quel type de zone DNS contient uniquement les enregistrements nécessaires pour localiser les serveurs DNS autoritaires pour la zone principale ?;) Zone principale;) Zone secondaire;) Zone de stub;) Zone de recherche inversée;c
-Active_directory;Quelle option du serveur DHCP permet de spécifier le domaine DNS pour les clients DHCP ?;) Option 1;) Option 3;) Option 6;) Option 15;d
-Active_directory;Quel est le protocole utilisé pour la communication entre les serveurs DNS pour les transferts de zone ?;) TCP;) UDP;) HTTP;) FTP;a
-Active_directory;Quel outil permet de surveiller les événements liés aux GPO sur un serveur Windows ?;) Event Viewer;) Task Manager;) Performance Monitor;) Resource Monitor;a
-Active_directory;Quel enregistrement DNS permet de spécifier un alias pour un autre enregistrement DNS ?;) Enregistrement A;) Enregistrement CNAME;) Enregistrement MX;) Enregistrement PTR;b
-Active_directory;Quelle commande permet de vérifier la connectivité réseau et la résolution de noms de domaine ?;) ping;) tracert;) nslookup;) ipconfig;a
-Active_directory;Quel type de GPO est appliqué en dernier dans un environnement Active Directory ?;) Local GPO;) Site GPO;) Domain GPO;) OU GPO;d
-Active_directory;Quel enregistrement DNS est utilisé pour spécifier le serveur de messagerie d'un domaine ?;) Enregistrement A;) Enregistrement CNAME;) Enregistrement MX;) Enregistrement SRV;c
-Active_directory;Quel outil permet de configurer les options DHCP sur un serveur Windows ?;) DHCP Manager;) DNS Manager;) IP Address Manager;) Network Monitor;a
-Active_directory;Quel est le fichier utilisé pour stocker les informations de la base de données DNS sur un serveur Windows ?;) dns.mdb;) dns.dit;) dns.xml;) dns.txt;b
-Active_directory;Quelle commande permet de tester la réplication Active Directory entre les contrôleurs de domaine ?;) repadmin /showrepl;) gpupdate /force;) dcdiag /test:replication;) netdom query replication;a
-Active_directory;Quel est le rôle d'un enregistrement PTR dans une zone DNS ?;) Associer un alias à un nom de domaine canonique;) Fournir une adresse IP pour un nom de domaine;) Spécifier le serveur de messagerie;) Résoudre une adresse IP en nom de domaine;d
-Active_directory;Quel outil permet de créer et gérer les objets utilisateurs et ordinateurs dans Active Directory ?;) Active Directory Users and Computers;) Group Policy Management Console;) Server Manager;) Control Panel;a
-Active_directory;Quelle commande permet d'afficher les informations de la configuration réseau, y compris les baux DHCP actifs sur un client Windows ?;) ipconfig /all;) netsh dhcp show leases;) dhcp show active;) netsh show dhcp;a
-linux;Quelle commande permet de créer un nouvel utilisateur sous Linux ?;useradd;adduser;newuser;createuser;a
-linux;Quelle commande permet de modifier les droits d'un fichier ou d'un dossier ?;chmod;chown;chgrp;chmodown;a
-linux;Quelle commande permet de changer le propriétaire d'un fichier ou d'un dossier ?;chmod;chown;chgrp;usermod;b
-linux;Que signifie tty dans un système Linux ?;Teletypewriter;Terminal;Telecommunication;Text Terminal;a
-linux;Que représente pts/x dans un système Linux ?;Physical Terminal Session;Pseudo Terminal Slave;Physical Terminal Slave;Pseudo Terminal Session;b
-linux;Quelle commande permet de démarrer un service sous Linux ?;start service;service start;systemctl start;init start;c
-linux;Quelle commande est utilisée pour arrêter un service sous Linux ?;systemctl stop;stop service;service stop;init stop;a
-linux;Quel utilitaire est utilisé pour créer des archives sous Linux ?;gzip;zip;tar;compress;c
-linux;Quelle commande permet de planifier des tâches sous Linux ?;cron;at;schedule;crontab;d
-linux;Comment ajouter une tâche cron qui s'exécute tous les jours à 3 heures du matin ?;) 0 3 * * * /path/to/command;) 0 3 0 0 0 /path/to/command;) 3 0 * * * /path/to/command;) * 3 * * * /path/to/command;a
-linux;Quelle commande permet de configurer un pare-feu en ligne de commande sous Linux ?;) iptables;) firewall;) netfilter;) firewalld;a
-linux;Quelle commande permet de configurer les interfaces réseau de manière interactive sous Linux ?;) nmtui;) nmcli;) ifconfig;) ipconfig;a
-linux;Quel fichier contient les informations des utilisateurs sous Linux ?;) /etc/shadow;) /etc/passwd;) /etc/group;) /etc/users;b
-linux;Quelle commande permet de vérifier les services actifs sous Linux ?;) service list;) systemctl status;) systemctl list;) service status;b
-linux;Quelle option de la commande tar permet de créer une archive ?;) -c;) -x;) -v;) -f;a
-linux;Quelle option de la commande tar permet d'extraire une archive ?;) -c;) -x;) -v;) -f;b
-linux;Quelle commande permet de changer le groupe propriétaire d'un fichier ou d'un dossier ?;) chown;) chmod;) chgrp;) chgowner;c
-linux;Quelle est la syntaxe correcte pour changer le propriétaire et le groupe d'un fichier en une seule commande ?;) chown user:group filename;) chown user group filename;) chgrp user:group filename;) chmod user:group filename;a
-linux;Quelle commande permet de lister les tâches planifiées pour l'utilisateur courant ?;) crontab -e;) crontab -l;) cron list;) crontab -d;b
-linux;Quelle commande permet d'éditer les tâches planifiées pour l'utilisateur courant ?;) crontab -e;) crontab -l;) crontab -d;) cronedit;a
-linux;Quelle commande permet de lister les règles actuelles du pare-feu iptables ?;) iptables -L;) iptables -S;) iptables -list;) iptables --show;a
-linux;Quel fichier contient les informations de groupe sous Linux ?;) /etc/shadow;) /etc/passwd;) /etc/group;) /etc/users;c
-linux;Quelle commande permet de créer un groupe sous Linux ?;) groupadd;) addgroup;) newgroup;) create group;a
-linux;Quel fichier de configuration est utilisé par crontab ?;) /etc/cron.conf;) /etc/crontab;) /etc/cron.d;) /etc/cron.daily;b
-linux;Quelle commande permet de vérifier l'état d'un service sous Linux ?;) service status;) systemctl check;) systemctl status;) check service;c
-linux;Quelle commande permet de lister les utilisateurs connectés à un système Linux ?;) who;) users;) w;) finger;a
-linux;Quelle commande permet d'ajouter un utilisateur à un groupe sous Linux ?;) usermod -aG group user;) useradd -G group user;) adduser user group;) groupmod -a user group;a
-linux;Quelle option de la commande tar permet de compresser l'archive avec gzip ?;) -z;) -x;) -g;) -c;a
-linux;Quel fichier de configuration est utilisé par iptables pour des règles persistantes ?;) /etc/iptables.conf;) /etc/sysconfig/iptables;) /etc/iptables/rules.v4;) /etc/firewall/iptables;b
-linux;Quelle commande permet de redémarrer un service sous Linux ?;) systemctl restart;) service restart;) systemctl start;) init restart;a
-linux;Quelle commande permet de vérifier l'état de la configuration réseau sous Linux ?;) ifconfig;) ip addr;) netstat;) nmcli dev status;d
-linux;Quelle commande permet de supprimer un utilisateur sous Linux ?;) userdel;) deluser;) rmuser;) removeuser;a
-linux;Quelle option de la commande chmod permet d'ajouter des permissions ?;) +;) -;) =;) a;a
-linux;Quelle option de la commande chmod permet de retirer des permissions ?;) +;) -;) =;) r;b
-linux;Quelle commande permet de voir les logs des services sous Linux ?;) logview;) journalctl;) logctl;) syslog;b
-linux;rvices qui les utilisent ?;) netstat -tuln;) ifconfig -a;) iptables -L;) lsof -i;a
-linux;Quelle commande permet de démarrer l'interface utilisateur de Network Manager en mode texte ?;) nmtui;) nmcli;) ifconfig;) netctl;a
-linux;Quelle commande permet de modifier le mot de passe d'un utilisateur sous Linux ?;) passwd;) chpasswd;) modpass;) changepw;a
-linux;Quelle commande permet de créer une archive tar et de la compresser avec bzip2 ?;) tar -cvjf archive.tar.bz2 /path/to/directory;) tar -cvzf archive.tar.gz /path/to/directory;) tar -cvf archive.tar.bz2 /path/to/directory;) tar -cvjf archive.bz2 /path/to/directory;a
-linux;Quelle option de la commande crontab permet de supprimer toutes les tâches cron de l'utilisateur courant ?;) -r;) -d;) -e;) -l;a
-linux;Quelle commande permet de vérifier l'utilisation du disque sous Linux ?;) df -h;) du -h;) ls -lh;) disk -h;a
-linux;Quel fichier de configuration est utilisé pour les règles persistantes du pare-feu sous Linux ?;) /etc/iptables/rules.v4;) /etc/sysconfig/iptables;) /etc/firewall/rules.conf;) /etc/network/iptables;b
-linux;Quelle commande permet d'afficher les informations sur les partitions du disque ?;) fdisk -l;) lsblk;) parted -l;) blkid;a
-linux;Quelle commande permet de redémarrer le système sous Linux ?;) reboot;) shutdown -r;) systemctl reboot;) restart;c
-linux;Quel fichier contient les informations de session pour ttyx et pts/x ?;) /var/run/utmp;) /var/log/wtmp;) /var/run/wtmp;) /var/log/utmp;a
-linux;Quelle commande permet d'assigner un terminal spécifique à une session utilisateur ?;) chvt;) tty;) setterm;) assignterm;a
-linux;Quelle commande permet d'afficher la mémoire utilisée et libre sous Linux ?;) free -h;) mem -h;) memfree -h;) memory -h;a
-linux;Quelle commande permet d'afficher les processus en cours sous Linux ?;) ps aux;) top;) htop;) all of the above;d
-linux;Quelle commande permet de redémarrer le service de gestion réseau sous Linux ?;) systemctl restart NetworkManager;) service restart network;) systemctl restart networking;) service restart NetworkManager;a
-linux;Quelle commande permet d'ajouter une nouvelle règle de pare-feu pour autoriser le trafic SSH ?;) iptables -A INPUT -p tcp --dport 22 -j ACCEPT;) iptables -A OUTPUT -p tcp --dport 22 -j ACCEPT;) iptables -A FORWARD -p tcp --dport 22 -j ACCEPT;) iptables -A INPUT -p tcp --sport 22 -j ACCEPT;a
-réseaux;Quel type de réseau couvre une petite zone géographique comme un bureau ou un bâtiment ?;LAN;MAN;WAN;PAN;a
-réseaux;Quel type de réseau couvre une grande ville ou une métropole ?;LAN;MAN;WAN;CAN;b
-réseaux;Quel type de réseau couvre des zones géographiques étendues, souvent à l'échelle d'un pays ou d'un continent ?;LAN;MAN;WAN;PAN;c
-réseaux;Quelle topologie de réseau relie chaque nœud à un seul autre nœud, formant une chaîne continue ?;Topologie en bus;Topologie en étoile;Topologie en anneau;Topologie en arbre;c
-réseaux;Quelle topologie de réseau connecte tous les nœuds à un seul point central ?;Topologie en bus;Topologie en étoile;Topologie en anneau;Topologie en maillage;b
-réseaux;Quelle topologie de réseau utilise un seul câble pour connecter tous les nœuds ?;Topologie en bus;Topologie en étoile;Topologie en anneau;Topologie en arbre;a
-réseaux;Dans quelle topologie de réseau chaque nœud est connecté à chaque autre nœud ?;Topologie en bus;Topologie en étoile;Topologie en anneau;Topologie en maillage;d
-réseaux;Quel type d'organisation réseau n'a pas de serveur dédié et où tous les postes sont égaux ?;Client/Serveur;Poste à Poste;Point à Point;Maître/Esclave;b
-réseaux;Quel type d'organisation réseau a des postes clients qui accèdent aux services d'un ou plusieurs serveurs ?;Poste à Poste;Client/Serveur;Point à Point;Maître/Esclave;b
-réseaux;Quel protocole de transport est orienté connexion et garantit la livraison des paquets ?;) TCP;) UDP;) IP;) ICMP;a
-réseaux;Quel protocole de transport est non orienté connexion et ne garantit pas la livraison des paquets ?;) TCP;) UDP;) IP;) ICMP;b
-réseaux;Dans quel modèle TCP/IP trouve-t-on le protocole IP ?;) Application;) Transport;) Internet;) Accès réseau;c
-réseaux;Combien de couches comporte le modèle OSI ?;) 4;) 5;) 6;) 7;d
-réseaux;Quelle est la première couche du modèle OSI ?;) Physique;) Liaison de données;) Réseau;) Transport;a
-réseaux;Quelle couche du modèle OSI est responsable de l'acheminement des paquets entre les réseaux ?;) Liaison de données;) Réseau;) Transport;) Session;b
-réseaux;Quelle couche du modèle OSI est responsable de la gestion des connexions de bout en bout ?;) Réseau;) Transport;) Session;) Présentation;b
-réseaux;Quelle couche du modèle OSI gère les formats de données et la cryptographie ?;) Application;) Transport;) Présentation;) Session;c
-réseaux;Quelle couche du modèle OSI est responsable des interfaces utilisateur et des protocoles de communication de haut niveau ?;) Application;) Présentation;) Session;) Transport;a
-réseaux;Quel protocole est utilisé pour la résolution d'adresses IP en adresses MAC ?;) ARP;) RARP;) DHCP;) DNS;a
-réseaux;Quel protocole est utilisé pour la résolution d'adresses IP en adresses MAC dans le modèle OSI ?;) Application;) Transport;) Réseau;) Liaison de données;d
-réseaux;Quel protocole attribue dynamiquement des adresses IP aux dispositifs dans un réseau ?;) ARP;) RARP;) DHCP;) DNS;c
-réseaux;Quel protocole convertit les noms de domaine en adresses IP ?;) ARP;) RARP;) DHCP;) DNS;d
-réseaux;Quelle est la couche d'accès réseau dans le modèle TCP/IP responsable de ?;) Le routage des paquets;) La gestion des connexions;) La transmission physique des données;) Le chiffrement des données;c
-réseaux;Quel protocole est utilisé pour envoyer des courriels ?;) FTP;) HTTP;) SMTP;) SNMP;c
-réseaux;Quel protocole est utilisé pour transférer des fichiers entre un client et un serveur ?;) FTP;) HTTP;) SMTP;) SNMP;a
-réseaux;Quel protocole est utilisé pour accéder à des pages web ?;) FTP;) HTTP;) SMTP;) SNMP;b
-réseaux;Quel protocole est utilisé pour la gestion des réseaux et la surveillance des dispositifs réseau ?;) FTP;) HTTP;) SMTP;) SNMP;d
-réseaux;Quel est le numéro de port utilisé par le protocole HTTP ?;) 20;) 21;) 80;) 443;c
-réseaux;Quel est le numéro de port utilisé par le protocole HTTPS ?;) 20;) 21;) 80;) 443;d
-réseaux;Quel est le numéro de port utilisé par le protocole FTP ?;) 20 et 21;) 22 et 23;) 25 et 26;) 80 et 81;a
-réseaux;Quel est le numéro de port utilisé par le protocole SMTP ?;) 25;) 53;) 110;) 143;a
-réseaux;Quel est le numéro de port utilisé par le protocole DNS ?;) 25;) 53;) 110;) 143;b
-réseaux;Quelle couche du modèle OSI est responsable de l'encapsulation des données en trames ?;) Réseau;) Transport;) Liaison de données;) Physique;c
-réseaux;Quelle couche du modèle OSI est responsable de la segmentation des données ?;) Réseau;) Transport;) Session;) Présentation;b
-réseaux;Quelle couche du modèle OSI est responsable de l'établissement, de la gestion et de la terminaison des sessions entre les applications ?;) Réseau;) Transport;) Session;) Présentation;c
-réseaux;Quelle couche du modèle OSI est responsable de la représentation, de l'encodage et du chiffrement des données ?;) Application;) Présentation;) Session;) Transport;b
-réseaux;Quel protocole de la couche Transport du modèle TCP/IP assure la livraison fiable des paquets ?;) TCP;) UDP;) IP;) ICMP;a
-réseaux;Quel protocole de la couche Transport du modèle TCP/IP est utilisé pour les communications en temps réel où la vitesse est plus importante que la fiabilité ?;) TCP;) UDP;) IP;) ICMP;b
-réseaux;Quelle couche du modèle OSI interagit directement avec le matériel réseau ?;) Application;) Réseau;) Transport;) Physique;d
-réseaux;Quel protocole de la couche Internet du modèle TCP/IP est responsable de l'adressage et du routage des paquets ?;) TCP;) UDP;) IP;) ICMP;c
-réseaux;Quelle couche du modèle OSI fournit des services aux applications et définit les protocoles de communication de haut niveau ?;) Application;) Présentation;) Session;) Transport;a
-réseaux;Quel dispositif réseau fonctionne principalement à la couche Réseau du modèle OSI ?;) Commutateur (Switch);) Routeur (Router);) Concentrateur (Hub);) Point d'accès (Access Point);b
-réseaux;Quel dispositif réseau fonctionne principalement à la couche Liaison de données du modèle OSI ?;) Commutateur (Switch);) Routeur (Router);) Concentrateur (Hub);) Modem;a
-réseaux;Quel dispositif réseau fonctionne principalement à la couche Physique du modèle OSI ?;) Commutateur (Switch);) Routeur (Router);) Concentrateur (Hub);) Point d'accès (Access Point);c
-réseaux;Quel type de réseau est utilisé pour relier des dispositifs dans un rayon personnel, souvent avec des technologies sans fil comme Bluetooth ?;) LAN;) MAN;) WAN;) PAN;d
-réseaux;Quel protocole est utilisé pour l'accès sécurisé à distance des réseaux ?;) FTP;) Telnet;) SSH;) SNMP;c
-réseaux;Quel est l'acronyme de MTU ?;) Maximum Transfer Unit;) Maximum Transmission Unit;) Minimum Transfer Unit;) Minimum Transmission Unit;b
-réseaux;Quel type d'adresse IPv4 est attribuée manuellement par un administrateur réseau ?;) Statique;) Dynamique;) Privée;) Publique;a
-réseaux;Quel type d'adresse IPv4 est attribuée automatiquement par un serveur DHCP ?;) Statique;) Dynamique;) Privée;) Publique;b
-réseaux;Quel protocole est utilisé pour résoudre les noms de domaine en adresses IP ?;) DNS;) DHCP;) ARP;) ICMP;a
-réseaux;Quel port est utilisé par le protocole HTTP ?;20;21;80;443;c
-réseaux;Quel port est utilisé par le protocole HTTPS ?;80;443;22;25;b
-réseaux;Quel port est utilisé par le protocole TELNET ?;21;22;23;25;c
-réseaux;Quel port est utilisé par le protocole SSH ?;20;21;22;23;c
-réseaux;Quelle commande Linux permet de se connecter à un serveur via SSH ?;telnet [adresse IP];ssh [adresse IP];connect [adresse IP];login [adresse IP];b
-réseaux;Quelle commande Windows permet de se connecter à un serveur via TELNET ?;ssh [adresse IP];telnet [adresse IP];connect [adresse IP];login [adresse IP];b
-réseaux;Quel port est utilisé par défaut pour une connexion PuTTY via SSH ?;21;22;23;25;b
-réseaux;Quel port est utilisé par défaut pour une connexion PuTTY via TELNET ?;21;22;23;25;c
-réseaux;Quel protocole utilise un port non sécurisé pour la transmission de données textuelles ?;HTTP;HTTPS;SSH;SFTP;a
-réseaux;Quel protocole utilise un port sécurisé pour la transmission de données chiffrées ?;) HTTP;) HTTPS;) FTP;) TELNET;b
-réseaux;Quelle commande Windows permet de lancer une session TELNET ?;) ssh [adresse IP];) telnet [adresse IP];) connect [adresse IP];) login [adresse IP];b
-réseaux;Quelle commande Linux permet de vérifier l'ouverture d'un port ?;) telnet [adresse IP] [port];) ping [adresse IP] [port];) nc -zv [adresse IP] [port];) ssh [adresse IP] [port];c
-réseaux;Quelle commande Windows permet de vérifier l'ouverture d'un port ?;) ping [adresse IP] [port];) telnet [adresse IP] [port];) connect [adresse IP] [port];) login [adresse IP] [port];b
-réseaux;Quel protocole est principalement utilisé pour l'administration distante sécurisée des serveurs ?;) HTTP;) TELNET;) SSH;) FTP;c
-réseaux;Quel protocole est principalement utilisé pour l'administration distante non sécurisée des serveurs ?;) HTTP;) TELNET;) SSH;) FTP;b
-réseaux;Quel protocole est utilisé pour la navigation web sécurisée ?;) HTTP;) HTTPS;) FTP;) TELNET;b
-réseaux;Quelle commande permet de générer une clé SSH sous Linux ?;) ssh-keygen;) ssh-key-create;) keygen-ssh;) create-key-ssh;a
-réseaux;Quelle option de PuTTY est utilisée pour spécifier le type de connexion ?;) Host Name;) Port;) Connection type;) Terminal;c
-réseaux;Quel protocole utilise les commandes GET et POST ?;) TELNET;) SSH;) HTTP;) FTP;c
-réseaux;Quelle commande permet de tester une connexion HTTP sous Linux ?;) curl [URL];) wget [URL];) http [URL];) netcat [URL];a
-réseaux;Quelle commande permet de tester une connexion HTTPS sous Linux ?;) curl -k https://[URL];) wget --no-check-certificate https://[URL];) openssl s_client -connect [URL]:443;) all of the above;d
-réseaux;Quel protocole utilise des certificats SSL/TLS pour sécuriser les communications ?;) HTTP;) HTTPS;) TELNET;) FTP;b
-réseaux;Quelle commande Windows permet de copier des fichiers via SSH ?;) ftp;) scp;) sftp;) rsync;b
-réseaux;Quel protocole permet de copier des fichiers de manière sécurisée entre deux hôtes ?;) FTP;) SCP;) TELNET;) HTTP;b
-réseaux;Quelle commande permet de lancer une session SSH en utilisant une clé privée sous Linux ?;) ssh -i [chemin_vers_cle] [adresse IP];) ssh -key [chemin_vers_cle] [adresse IP];) ssh -p [chemin_vers_cle] [adresse IP];) ssh -private [chemin_vers_cle] [adresse IP];a
-réseaux;Quel protocole est utilisé par PuTTY pour les connexions sécurisées ?;) TELNET;) SSH;) HTTP;) FTP;b
-réseaux;Quel port est utilisé par défaut pour une connexion SCP ?;) 20;) 21;) 22;) 23;c
-réseaux;Quel protocole est utilisé pour les connexions sécurisées avec PuTTY ?;) TELNET;) SSH;) FTP;) HTTP;b
-réseaux;Quelle commande permet d'envoyer une requête HTTP GET sous Linux ?;) curl -X GET [URL];) wget --method=GET [URL];) http -method GET [URL];) netcat -GET [URL];a
-réseaux;Quelle commande permet d'envoyer une requête HTTP POST sous Linux ?;) curl -X POST [URL];) wget --method=POST [URL];) http -method POST [URL];) netcat -POST [URL];a
-réseaux;Quelle commande permet de vérifier la connectivité d'un hôte distant via SSH sous Windows ?;) ssh [adresse IP];) telnet [adresse IP];) connect [adresse IP];) login [adresse IP];a
-réseaux;Quel outil peut être utilisé pour des connexions sécurisées via SSH sur Windows ?;) PowerShell;) Command Prompt;) PuTTY;) Telnet Client;c
-réseaux;Quel outil peut être utilisé pour des connexions TELNET sur Windows ?;) PowerShell;) Command Prompt;) PuTTY;) Telnet Client;c
-réseaux;Quelle commande permet de transférer un fichier via SSH sous Linux ?;) scp [chemin_vers_fichier] [utilisateur]@[adresse IP]:[chemin_destination];) cp [chemin_vers_fichier] [utilisateur]@[adresse IP]:[chemin_destination];) mv [chemin_vers_fichier] [utilisateur]@[adresse IP]:[chemin_destination];) rsync [chemin_vers_fichier] [utilisateur]@[adresse IP]:[chemin_destination];a
-réseaux;Quel outil sous Windows permet de créer des clés SSH ?;) PowerShell;) Command Prompt;) PuTTYgen;) Telnet Client;c
-réseaux;Quel outil est utilisé pour transférer des fichiers de manière sécurisée sous Windows ?;) FTP;) SCP;) PuTTY;) PowerShell;b
-réseaux;Quelle commande Linux permet de planifier une tâche utilisant un protocole réseau ?;) crontab -e;) at;) ssh [adresse IP];) telnet [adresse IP];a
-réseaux;Quelle commande Linux permet de vérifier l'ouverture d'un port spécifique sur un serveur distant ?;) netstat;) nc -zv [adresse IP] [port];) lsof;) ps aux;b
-réseaux;Quel protocole est utilisé pour l'accès non sécurisé aux applications web ?;) FTP;) TELNET;) HTTP;) SSH;c
-réseaux;Quelle commande Linux permet de se connecter à un serveur via TELNET ?;) telnet [adresse IP];) ssh [adresse IP];) connect [adresse IP];) login [adresse IP];a
-réseaux;Quelle commande Windows permet de générer une paire de clés SSH ?;) ssh-keygen;) ssh-key-create;) keygen-ssh;) create-key-ssh;a
-réseaux;Quel protocole est principalement utilisé pour le transfert de fichiers de manière sécurisée ?;) HTTP;) FTP;) SCP;) TELNET;c
-réseaux;Quel outil peut être utilisé pour des connexions SSH sur Linux ?;) telnet;) ssh;) ftp;) scp;b
-réseaux;Quelle commande permet de vérifier l'ouverture du port 80 sur un serveur distant sous Linux ?;) nc -zv [adresse IP] 80;) ssh [adresse IP] 80;) telnet [adresse IP] 80;) ping [adresse IP] 80;a
-réseaux;Quel protocole est utilisé pour des connexions sécurisées avec PuTTY ?;) TELNET;) SSH;) FTP;) HTTP;b
-réseaux;Quelle commande permet de lister les ports ouverts sur un serveur distant sous Linux ?;) netstat -tuln;) lsof -i;) ss -tuln;) all of the above;d
-réseaux;Quelle commande Linux permet d'arrêter un service utilisant un port spécifique ?;) systemctl stop [nom_du_service];) service [nom_du_service] stop;) kill [PID];) all of the above;d
-réseaux;Quel protocole est utilisé pour l'administration distante sécurisée des serveurs ?;) HTTP;) TELNET;) SSH;) FTP;c
-réseaux;Quelle commande permet de tester une connexion HTTPS sous Windows ?;) curl -k https://[URL];) wget --no-check-certificate https://[URL];) openssl s_client -connect [URL]:443;) all of the above;d
-réseaux;Quel outil sous Linux permet de gérer les connexions réseau ?;) netstat;) nc;) ssh;) all of the above;d
 matos_réseaux;Quelle interface utilisateur est utilisée pour configurer un switch Cisco Catalyst en GUI ?;Console CLI;Interface Web;TFTP;SNMP;b
 matos_réseaux;Quel est le port par défaut pour accéder à l'interface GUI d'un switch Cisco Catalyst ?;22;80;443;8080;c
 matos_réseaux;Quel protocole est couramment utilisé pour sécuriser l'accès à l'interface GUI d'un switch Cisco Catalyst ?;HTTP;HTTPS;FTP;TELNET;b
@@ -645,106 +597,154 @@ nagios;Comment vérifier les problèmes non reconnus dans Nagios ?;) En utilisan
 nagios;Comment vérifier les problèmes non reconnus dans Nagios ?;) En utilisant l'interface GUI;) En consultant le fichier de logs;) En utilisant l'API;Toutes les réponses ci-dessus;a
 nagios;Quel est l'avantage de réaliser des check-lists assistées par Nagios ?;) Automatiser les vérifications;) Améliorer la précision des vérifications;) Réduire le temps de maintenance;Toutes les réponses ci-dessus
 nagios;Quel est l'avantage de réaliser des check-lists assistées par Nagios ?;) Automatiser les vérifications;) Améliorer la précision des vérifications;) Réduire le temps de maintenance;Toutes les réponses ci-dessus;d
-binaire;Quelle est la valeur décimale de la représentation binaire 1010 ?;5;8;10;15;c
-binaire;Quelle est la représentation binaire de la valeur décimale 25 ?;11001;10011;10101;11101;b
-binaire;Quelle est l'adresse IPv4 réservée pour la boucle locale ?;192.168.1.1;127.0.0.1;10.0.0.1;172.16.0.1;b
-binaire;Quelle est la représentation binaire de l'adresse IPv4 192.168.1.10 ?;11000000.10101000.00000001.00001010;11000000.10101000.00000001.00001000;11000000.10101000.00000000.00001010;11000000.10101000.00000010.00001010;a
-binaire;Quelle est la signification de l'adresse IP 169.254.0.1 ?;Adresse IP publique;Adresse IP privée;Adresse IP APIPA;Adresse IP de boucle locale;c
-binaire;Combien de bits sont utilisés pour représenter une adresse IPv4 ?;32 bits;16 bits;8 bits;64 bits;a
-binaire;Quel est le masque de sous-réseau par défaut pour une adresse IPv4 de classe C ?;255.255.0.0;255.255.255.0;255.0.0.0;255.255.255.255;b
-binaire;Combien de sous-réseaux peut-on créer en utilisant un masque de sous-réseau de 255.255.255.224 ?;8;16;32;64;b
-binaire;Quel est le premier hôte d'un sous-réseau avec une adresse réseau de 192.168.1.0/27 ?;192.168.1.1;192.168.1.2;192.168.1.32;192.168.1.33;a
-binaire;Quel est le dernier hôte d'un sous-réseau avec une adresse réseau de 10.10.10.0/28 ?;10.10.10.14;10.10.10.15;10.10.10.30;10.10.10.31;b
-binaire;Quelle est la portée d'une adresse IP 172.16.0.1 avec un masque de sous-réseau de 255.255.0.0 ?;Réseau local;Sous-réseau;Internet;WAN;b
-binaire;Quelle est la forme binaire de l'adresse IP 255.255.255.0 ?;11111111.11111111.11111111.11111111;11111111.00000000.00000000.00000000;11111111.11111111.11111111.00000000;11111111.11111111.11111100.00000000;c
-binaire;Quelle est la signification de l'adresse IP 127.0.0.1 ?;Adresse IP privée;Adresse IP APIPA;Adresse IP de boucle locale;Adresse IP publique;c
-binaire;Quel est le premier hôte d'un sous-réseau avec une adresse réseau de 192.168.10.0/29 ?;192.168.10.1;192.168.10.2;192.168.10.6;192.168.10.7;a
-binaire;Quel est le dernier hôte d'un sous-réseau avec une adresse réseau de 172.16.0.0/23 ?;172.16.0.254;172.16.1.254;172.16.2.254;172.16.3.254;b
-binaire;Combien d'hôtes peuvent être connectés à un sous-réseau avec un masque de sous-réseau de 255.255.255.240 ?;14;15;16;30;a
-binaire;Quelle est la représentation binaire de l'adresse IPv4 10.0.0.0 ?;00001010.00000000.00000000.00000000;00001010.00000000.00000000.00000001;00001010.00000000.00000001.00000000;00001010.00000000.00000001.00000001;a
-binaire;Quelle est l'adresse réseau pour l'adresse IPv4 192.168.5.77 avec un masque de sous-réseau de 255.255.255.224 ?;192.168.5.0;192.168.5.32;192.168.5.64;192.168.5.96;a
-binaire;Quelle est la représentation binaire de l'adresse IPv4 172.16.31.5 ?;10101100.00010000.00011111.00000101;10101100.00010000.00011001.00000101;10101100.00010000.00011011.00000101;10101100.00011000.00011111.00000101;c
-binaire;Quelle est la signification de l'adresse IP 192.168.0.1 ?;Adresse IP APIPA;Adresse IP de boucle locale;Adresse IP publique;Adresse IP privée;d
-binaire;Combien d'octets sont utilisés pour représenter une adresse IPv4 ?;2;4;6;8;b
-binaire;Quelle est la représentation binaire de l'adresse IPv4 255.255.255.0 ?;11111111.11111111.11111111.00000000;11111111.11111111.11111110.00000000;11111111.11111111.11111100.00000000;11111111.11111111.11111000.00000000;a
-binaire;Quelle est l'adresse IP réservée pour les tests de boucle locale ?;127.0.0.1;192.168.1.1;10.0.0.1;172.16.0.1;a
-binaire;Quelle est la représentation décimale de l'adresse IP 11000000.10101000.00000001.00001010 ?;192.168.1.10;172.16.0.1;10.0.0.1;127.0.0.1;b
-binaire;Quelle est la plage d'adresses IP réservée pour les APIPA ?;169.254.0.0 - 169.254.0.255;169.254.0.1 - 169.254.0.254;169.254.0.1 - 169.254.255.254;169.254.0.0 - 169.254.255.255;d
-binaire;Quel est le nombre maximum d'hôtes pouvant être connectés à un sous-réseau avec un masque de sous-réseau /29 ?;6;8;14;16;c
-binaire;Quelle est la représentation binaire de l'adresse IPv4 192.168.10.5 ?;11000000.10101000.00001010.00000101;11000000.10101000.00001010.00000001;11000000.10101000.00000010.00000101;11000000.10101000.00000001.00000101;b
-binaire;Quelle est l'adresse réseau pour l'adresse IPv4 172.16.3.44 avec un masque de sous-réseau de 255.255.255.240 ?;172.16.3.0;172.16.3.16;172.16.3.32;172.16.3.48;a
-binaire;Quelle est la représentation binaire de l'adresse IPv4 10.10.10.10 ?;00001010.00001010.00001010.00001010;00001010.00001010.00001010.00001000;00001010.00001010.00001010.00000010;00001010.00001010.00001000.00001010;a
-binaire;Quelle est la signification de l'adresse IP 192.168.1.1 ?;Adresse IP de boucle locale;Adresse IP publique;Adresse IP APIPA;Adresse IP privée;d
-binaire;Combien de bits sont utilisés pour représenter un octet ?;4 bits;8 bits;16 bits;32 bits;b
-binaire;Quelle est la représentation binaire de l'adresse IPv4 172.16.0.0 ?;10101100.00000000.00000000.00000000;10101100.00010000.00000000.00000000;10101100.00010000.00000001.00000000;10101100.00000000.00000001.00000000;a
-binaire;Quelle est la représentation décimale de l'adresse IP 11111111.11111111.11111111.00000000 ?;255.255.255.0;255.255.255.255;255.255.255.254;255.255.255.252;a
-binaire;Quelle est la portée d'une adresse IP 10.0.0.1 avec un masque de sous-réseau de 255.255.255.0 ?;WAN;Sous-réseau;Internet;Réseau local;d
-binaire;Quelle est la première adresse disponible dans le sous-réseau 192.168.1.0/24 ?;192.168.1.0;192.168.1.1;192.168.1.2;192.168.1.255;b
-binaire;Quel est le dernier hôte d'un sous-réseau avec une adresse réseau de 172.16.0.0/22 ?;172.16.3.254;172.16.1.254;172.16.2.254;172.16.3.255;a
-binaire;Combien de sous-réseaux peut-on créer avec un masque de sous-réseau /26 ?;2;4;8;16;d
-binaire;Quelle est la représentation binaire de l'adresse IPv4 192.168.1.0 ?;11000000.10101000.00000001.00000000;11000000.10101000.00000000.00000000;11000000.10101000.00000001.00000001;11000000.10101000.00000000.00000001;b
-binaire;Quelle est l'adresse réseau pour l'adresse IPv4 10.0.0.77 avec un masque de sous-réseau de 255.255.255.128 ?;10.0.0.0;10.0.0.64;10.0.0.128;10.0.0.192;a
-binaire;Quelle est la représentation décimale de l'adresse IP 10101100.00010000.00011111.00000101 ?;172.16.31.5;192.168.1.1;10.0.0.1;255.255.255.255;a
-binaire;Quelle est la signification de l'adresse IP 169.254.0.1 ?;Adresse IP APIPA;Adresse IP de boucle locale;Adresse IP publique;Adresse IP privée;a
-binaire;Combien d'octets sont utilisés pour représenter une adresse IPv4 ?;2;4;6;8;b
-binaire;Quelle est la représentation binaire de l'adresse IPv4 255.255.255.0 ?;11111111.11111111.11111111.00000000;11111111.11111111.11111110.00000000;11111111.11111111.11111100.00000000;11111111.11111111.11111000.00000000;a
-binaire;Quel est l'adresse IP réservée pour les tests de boucle locale ?;127.0.0.1;192.168.1.1;10.0.0.1;172.16.0.1;a
-binaire;Quelle est la représentation décimale de l'adresse IP 11000000.10101000.00000001.00001010 ?;192.168.1.10;172.16.0.1;10.0.0.1;127.0.0.1;b
-binaire;Quelle est la plage d'adresses IP réservée pour les APIPA ?;169.254.0.0 - 169.254.0.255;169.254.0.1 - 169.254.0.254;169.254.0.1 - 169.254.255.254;169.254.0.0 - 169.254.255.255;d
-binaire;Quel est le nombre maximum d'hôtes pouvant être connectés à un sous-réseau avec un masque de sous-réseau /29 ?;6;8;14;16;c
-binaire;Quelle est la représentation binaire de l'adresse IPv4 192.168.10.5 ?;11000000.10101000.00001010.00000101;11000000.10101000.00001010.00000001;11000000.10101000.00000010.00000101;11000000.10101000.00000001.00000101;b
-binaire;Quelle est l'adresse réseau pour l'adresse IPv4 172.16.3.44 avec un masque de sous-réseau de 255.255.255.240 ?;172.16.3.0;172.16.3.16;172.16.3.32;172.16.3.48;a
-binaire;Quelle est l'adresse réseau pour l'adresse IPv4 172.16.3.44 avec un masque de sous-réseau de 255.255.255.240 ?;172.16.3.0;172.16.3.16;172.16.3.32;172.16.3.48;a;a
-binaire;Quel est l'avantage de réaliser des check-lists assistées par Nagios ?;a) Automatiser les vérifications;b) Améliorer la précision des vérifications;c) Réduire le temps de maintenance;Toutes les réponses ci-dessus
-binaire;Quel est l'avantage de réaliser des check-lists assistées par Nagios ?;a) Automatiser les vérifications;b) Améliorer la précision des vérifications;c) Réduire le temps de maintenance;Toutes les réponses ci-dessus;d
-active_directory;Quelle est l'étape initiale pour ajouter le rôle serveur DNS sur un serveur Windows ?;Configuration du serveur DHCP;Installation du rôle ADDS;Configuration du serveur DNS;Configuration de l'interface réseau;c
-active_directory;Quelle est la première étape pour configurer un serveur DNS ?;Configuration des zones de recherche directes;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;Configuration des interfaces réseau;b
-active_directory;Qu'est-ce qu'une zone de recherche directe dans DNS ?;Une zone qui résout les noms de domaine en adresses IP;Une zone qui résout les adresses IP en noms de domaine;Une zone qui gère les enregistrements MX;Une zone qui gère les enregistrements SPF;a
-active_directory;Qu'est-ce qu'une zone de recherche inversée dans DNS ?;Une zone qui résout les noms de domaine en adresses IP;Une zone qui résout les adresses IP en noms de domaine;Une zone qui gère les enregistrements MX;Une zone qui gère les enregistrements SPF;b
-active_directory;Quelle est l'étape suivante après l'installation du rôle serveur DNS pour ajouter un serveur DNS secondaire ?;Configuration des zones de recherche directes;Configuration du serveur DHCP;Configuration DNS sur les interfaces réseau;Installation du rôle serveur DHCP;c
-active_directory;Quelle commande est utilisée pour effectuer une recherche DNS en ligne de commande ?;ping;traceroute;ipconfig;nslookup;d
-active_directory;Comment rétrogradez-vous le rôle serveur DNS sur un serveur Windows Server 2022 ?;À partir du gestionnaire de serveur;En utilisant l'invite de commandes avec la commande "dcpromo";En utilisant l'invite de commandes avec la commande "nslookup";À partir du panneau de configuration;b
-active_directory;Quelle est la définition d'une base de données dans le contexte d'Active Directory ?;Un référentiel de données stockées de manière structurée;Une liste de noms d'utilisateur et de mots de passe;Une structure de fichiers hiérarchique pour stocker des données;Un protocole de communication pour accéder à des données distantes;a
-active_directory;Quelle est l'étape initiale pour installer le rôle ADDS (Active Directory Domain Services) ?;Configuration des interfaces réseau;Ajout du rôle serveur DHCP;Installation du serveur DNS;Installation du rôle ADDS;d
-active_directory;Quelle étape suit l'installation du rôle ADDS pour promouvoir un serveur en Contrôleur de domaine ?;Configuration des zones de recherche directes;Installation du serveur DHCP;Configuration du serveur DNS;Configuration DNS sur les interfaces réseau;c
-active_directory;Quelle est l'étape suivante après la promotion d'un serveur en Contrôleur de domaine pour ajouter des postes clients dans un domaine ?;Installation du rôle serveur DHCP;Configuration du serveur DNS;Configuration DNS sur les postes clients;Configuration des stratégies de groupe (GPO);c
-active_directory;Quel outil est utilisé pour gérer les objets Active Directory tels que les utilisateurs et les ordinateurs ?;Gestionnaire de serveur;Gestionnaire de tâches;Gestionnaire de fenêtres;Utilisateurs et Ordinateurs Active Directory;d
-active_directory;Quelle est la première étape pour créer un compte administrateur dans Active Directory ?;Configuration d'une stratégie de groupe (GPO);Configuration d'une unité d'organisation (OU);Configuration des zones de recherche directes;Création d'un nouvel utilisateur dans Utilisateurs et Ordinateurs Active Directory;d
-active_directory;Quelle étape suit la création d'un compte utilisateur dans Active Directory pour configurer des autorisations spécifiques ?;Ajout de l'utilisateur à un groupe de distribution;Ajout de l'utilisateur à un groupe de sécurité;Configuration des zones de recherche directes;Installation d'un serveur DNS secondaire;b
-active_directory;Quel est le but principal des unités d'organisation (OU) dans Active Directory ?;Regrouper les utilisateurs selon leur appartenance à un domaine;Regrouper les ordinateurs selon leur système d'exploitation;Regrouper les objets selon une structure hiérarchique personnalisée;Regrouper les stratégies de groupe (GPO) pour les appliquer à plusieurs objets;c
-active_directory;Quelle méthode est utilisée pour se connecter à un domaine avec un compte utilisateur dans Windows ?;domain\compte;compte@domaine;domaine\compte@motdepasse;compte@domaine.motdepasse;a
-active_directory;Comment se connecte-t-on à un compte local sur un ordinateur avec Windows ?;domain\compte;compte@domaine;host\compte;compte@host;c
-active_directory;Quelle est l'étape suivante après l'installation d'un Contrôleur de domaine secondaire pour garantir la réplication ?;Configuration des zones de recherche directes;Configuration DNS sur les postes clients;Configuration DNS sur les interfaces réseau;Réplication d'un Contrôleur de domaine vers un autre;d
-active_directory;Comment rétrogradez-vous le rôle de serveur Contrôleur de domaine sur un serveur Windows Server 2022 ?;À partir du gestionnaire de serveur;En utilisant l'invite de commandes avec la commande "dcpromo";En utilisant l'invite de commandes avec la commande "nslookup";À partir du panneau de configuration;b
-active_directory;Quelle est l'étape suivante après la rétrogradation d'un Contrôleur de domaine pour supprimer une Unité d'Organisation (OU) protégée ?;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;Configuration DNS sur les interfaces réseau;Utilisation des Fonctionnalités avancées pour supprimer l'OU;d
-active_directory;Quel est le but des stratégies de groupe (GPO) dans Active Directory ?;Gérer les comptes d'utilisateur uniquement;Appliquer des paramètres de configuration à des groupes spécifiques d'ordinateurs et d'utilisateurs;Contrôler l'accès aux ressources réseau;Surveiller les journaux d'événements du domaine;b
-active_directory;Quel exemple de stratégie de groupe (GPO) désactive l'icône de la corbeille sur les postes clients Windows ?;GPO de Sécurité;GPO de Redirection;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;d
-active_directory;Quel exemple de stratégie de groupe (GPO) permet de mapper un dossier partagé sur les postes clients Windows ?;GPO de Sécurité;GPO de Redirection;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;c
-active_directory;Quel exemple de stratégie de groupe (GPO) permet de rediriger les dossiers de profils utilisateur vers un emplacement spécifié ?;GPO de Sécurité;GPO de Redirection;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;b
-active_directory;Quelle commande est utilisée pour forcer la mise à jour des stratégies de groupe sur un ordinateur Windows ?;gpedit.msc;gpresult;gpupdate /force;gpreport;c
-active_directory;Quelle est la première étape pour ajouter le rôle serveur DHCP sur un serveur Windows ?;Installation du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;d
-active_directory;Quelle est l'étape suivante après l'installation du rôle serveur DHCP pour configurer un serveur DHCP ?;Configuration DNS sur les interfaces réseau;Configuration du serveur DNS;Configuration des plages d'adresses IP;Configuration des zones de recherche directes;c
-active_directory;Quelle est la signification de l'acronyme LDAP dans le contexte d'Active Directory ?;Lightweight Directory Application Protocol;Local Directory Authentication Protocol;Link Data Access Protocol;Logical Domain Authentication Process;a
-active_directory;Quelle est la signification de l'acronyme DNS dans le contexte d'Active Directory ?;Domain Name System;Directory Network Service;Domain Network Server;Directory Naming Service;a
-active_directory;Quelle est la première étape pour configurer un serveur DHCP ?;Installation du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;d
-active_directory;Quelle étape suit l'installation du rôle serveur DHCP pour configurer un serveur DHCP ?;Configuration des plages d'adresses IP;Configuration du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;a
-active_directory;Quelle est la signification de l'acronyme ADDS dans le contexte d'Active Directory ?;Advanced Directory Domain Services;Active Directory Domain Services;Advanced Data Domain Services;Active Data Directory Services;b
-active_directory;Quelle est la première étape pour promouvoir un serveur en Contrôleur de domaine ?;Configuration du serveur DNS;Installation du rôle serveur DHCP;Configuration des zones de recherche directes;Installation du rôle ADDS;d
-active_directory;Quelle étape suit la promotion d'un serveur en Contrôleur de domaine pour ajouter des postes clients dans un domaine ?;Configuration DNS sur les postes clients;Configuration des plages d'adresses IP;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;a
-active_directory;Quel outil est utilisé pour gérer les objets Active Directory tels que les utilisateurs, les ordinateurs et les groupes ?;Gestionnaire de serveur;Utilisateurs et Ordinateurs Active Directory;Gestionnaire de tâches;Gestionnaire de fenêtres;b
-active_directory;Quelle est la première étape pour créer un compte administrateur dans Active Directory ?;Configuration d'une unité d'organisation (OU);Installation du serveur DNS;Installation du serveur DHCP;Création d'un nouvel utilisateur dans Utilisateurs et Ordinateurs Active Directory;d
-active_directory;Quelle étape suit la création d'un compte utilisateur dans Active Directory pour configurer des autorisations spécifiques ?;Ajout de l'utilisateur à un groupe de distribution;Configuration des plages d'adresses IP;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;c
-active_directory;Quel exemple de stratégie de groupe (GPO) désactive l'icône de la corbeille sur les postes clients Windows ?;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;GPO de Redirection;GPO de Sécurité;b
-active_directory;Quel exemple de stratégie de groupe (GPO) permet de mapper un dossier partagé sur les postes clients Windows ?;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;GPO de Redirection;GPO de Sécurité;a
-active_directory;Quel exemple de stratégie de groupe (GPO) permet de rediriger les dossiers de profils utilisateur vers un emplacement spécifié ?;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;GPO de Redirection;GPO de Sécurité;c
-active_directory;Quelle commande est utilisée pour forcer la mise à jour des stratégies de groupe sur un ordinateur Windows ?;gpedit.msc;gpresult;gpupdate /force;gpreport;c
-active_directory;Quelle est la première étape pour ajouter le rôle serveur DHCP sur un serveur Windows ?;Installation du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;d
-active_directory;Quelle étape suit l'installation du rôle serveur DHCP pour configurer un serveur DHCP ?;Configuration DNS sur les interfaces réseau;Configuration des plages d'adresses IP;Configuration du serveur DNS;Ajout du rôle serveur DNS;b
-active_directory;Quelle est la signification de l'acronyme LDAP dans le contexte d'Active Directory ?;Lightweight Directory Application Protocol;Local Directory Authentication Protocol;Link Data Access Protocol;Logical Domain Authentication Process;a
-active_directory;Quelle est la signification de l'acronyme DNS dans le contexte d'Active Directory ?;Domain Name System;Directory Network Service;Domain Network Server;Directory Naming Service;a
-active_directory;Quelle est la première étape pour configurer un serveur DHCP ?;Installation du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;d
-active_directory;Quelle étape suit l'installation du rôle serveur DHCP pour configurer un serveur DHCP ?;Configuration DNS sur les interfaces réseau;Configuration des plages d'adresses IP;Configuration du serveur DNS;Ajout du rôle serveur DNS;b
-active_directory;Quelle est la signification de l'acronyme ADDS dans le contexte d'Active Directory ?;Advanced Directory Domain Services;Active Directory Domain Services;Advanced Data Domain Services;Active Data Directory Services;b
-active_directory;Quelle est la première étape pour promouvoir un serveur en Contrôleur de domaine ?;Configuration du serveur DNS;Installation du rôle serveur DHCP;Configuration des zones de recherche directes;Installation du rôle ADDS;d
-active_directory;Quelle étape suit la promotion d'un serveur en Contrôleur de domaine pour ajouter des postes clients dans un domaine ?;Configuration DNS sur les postes clients;Configuration des plages d'adresses IP;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;a
-active_directory;Quelle étape suit la promotion d'un serveur en Contrôleur de domaine pour ajouter des postes clients dans un domaine ?;Configuration DNS sur les postes clients;Configuration des plages d'adresses IP;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;a;d
+Active_directory;Quelle est l'étape initiale pour ajouter le rôle serveur DNS sur un serveur Windows ?;Configuration du serveur DHCP;Installation du rôle ADDS;Configuration du serveur DNS;Configuration de l'interface réseau;c
+Active_directory;Quelle est la première étape pour configurer un serveur DNS ?;Configuration des zones de recherche directes;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;Configuration des interfaces réseau;b
+Active_directory;Qu'est-ce qu'une zone de recherche directe dans DNS ?;Une zone qui résout les noms de domaine en adresses IP;Une zone qui résout les adresses IP en noms de domaine;Une zone qui gère les enregistrements MX;Une zone qui gère les enregistrements SPF;a
+Active_directory;Qu'est-ce qu'une zone de recherche inversée dans DNS ?;Une zone qui résout les noms de domaine en adresses IP;Une zone qui résout les adresses IP en noms de domaine;Une zone qui gère les enregistrements MX;Une zone qui gère les enregistrements SPF;b
+Active_directory;Quelle est l'étape suivante après l'installation du rôle serveur DNS pour ajouter un serveur DNS secondaire ?;Configuration des zones de recherche directes;Configuration du serveur DHCP;Configuration DNS sur les interfaces réseau;Installation du rôle serveur DHCP;c
+Active_directory;Quelle commande est utilisée pour effectuer une recherche DNS en ligne de commande ?;ping;traceroute;ipconfig;nslookup;d
+Active_directory;Comment rétrogradez-vous le rôle serveur DNS sur un serveur Windows Server 2022 ?;À partir du gestionnaire de serveur;En utilisant l'invite de commandes avec la commande "dcpromo";En utilisant l'invite de commandes avec la commande "nslookup";À partir du panneau de configuration;b
+Active_directory;Quelle est la définition d'une base de données dans le contexte d'Active Directory ?;Un référentiel de données stockées de manière structurée;Une liste de noms d'utilisateur et de mots de passe;Une structure de fichiers hiérarchique pour stocker des données;Un protocole de communication pour accéder à des données distantes;a
+Active_directory;Quelle est l'étape initiale pour installer le rôle ADDS (Active Directory Domain Services) ?;Configuration des interfaces réseau;Ajout du rôle serveur DHCP;Installation du serveur DNS;Installation du rôle ADDS;d
+Active_directory;Quelle étape suit l'installation du rôle ADDS pour promouvoir un serveur en Contrôleur de domaine ?;Configuration des zones de recherche directes;Installation du serveur DHCP;Configuration du serveur DNS;Configuration DNS sur les interfaces réseau;c
+Active_directory;Quelle est l'étape suivante après la promotion d'un serveur en Contrôleur de domaine pour ajouter des postes clients dans un domaine ?;Installation du rôle serveur DHCP;Configuration du serveur DNS;Configuration DNS sur les postes clients;Configuration des stratégies de groupe (GPO);c
+Active_directory;Quel outil est utilisé pour gérer les objets Active Directory tels que les utilisateurs et les ordinateurs ?;Gestionnaire de serveur;Gestionnaire de tâches;Gestionnaire de fenêtres;Utilisateurs et Ordinateurs Active Directory;d
+Active_directory;Quelle est la première étape pour créer un compte administrateur dans Active Directory ?;Configuration d'une stratégie de groupe (GPO);Configuration d'une unité d'organisation (OU);Configuration des zones de recherche directes;Création d'un nouvel utilisateur dans Utilisateurs et Ordinateurs Active Directory;d
+Active_directory;Quelle étape suit la création d'un compte utilisateur dans Active Directory pour configurer des autorisations spécifiques ?;Ajout de l'utilisateur à un groupe de distribution;Ajout de l'utilisateur à un groupe de sécurité;Configuration des zones de recherche directes;Installation d'un serveur DNS secondaire;b
+Active_directory;Quel est le but principal des unités d'organisation (OU) dans Active Directory ?;Regrouper les utilisateurs selon leur appartenance à un domaine;Regrouper les ordinateurs selon leur système d'exploitation;Regrouper les objets selon une structure hiérarchique personnalisée;Regrouper les stratégies de groupe (GPO) pour les appliquer à plusieurs objets;c
+Active_directory;Quelle méthode est utilisée pour se connecter à un domaine avec un compte utilisateur dans Windows ?;domain\compte;compte@domaine;domaine\compte@motdepasse;compte@domaine.motdepasse;a
+Active_directory;Comment se connecte-t-on à un compte local sur un ordinateur avec Windows ?;domain\compte;compte@domaine;host\compte;compte@host;c
+Active_directory;Quelle est l'étape suivante après l'installation d'un Contrôleur de domaine secondaire pour garantir la réplication ?;Configuration des zones de recherche directes;Configuration DNS sur les postes clients;Configuration DNS sur les interfaces réseau;Réplication d'un Contrôleur de domaine vers un autre;d
+Active_directory;Comment rétrogradez-vous le rôle de serveur Contrôleur de domaine sur un serveur Windows Server 2022 ?;À partir du gestionnaire de serveur;En utilisant l'invite de commandes avec la commande "dcpromo";En utilisant l'invite de commandes avec la commande "nslookup";À partir du panneau de configuration;b
+Active_directory;Quelle est l'étape suivante après la rétrogradation d'un Contrôleur de domaine pour supprimer une Unité d'Organisation (OU) protégée ?;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;Configuration DNS sur les interfaces réseau;Utilisation des Fonctionnalités avancées pour supprimer l'OU;d
+Active_directory;Quel est le but des stratégies de groupe (GPO) dans Active Directory ?;Gérer les comptes d'utilisateur uniquement;Appliquer des paramètres de configuration à des groupes spécifiques d'ordinateurs et d'utilisateurs;Contrôler l'accès aux ressources réseau;Surveiller les journaux d'événements du domaine;b
+Active_directory;Quel exemple de stratégie de groupe (GPO) désactive l'icône de la corbeille sur les postes clients Windows ?;GPO de Sécurité;GPO de Redirection;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;d
+Active_directory;Quel exemple de stratégie de groupe (GPO) permet de mapper un dossier partagé sur les postes clients Windows ?;GPO de Sécurité;GPO de Redirection;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;c
+Active_directory;Quel exemple de stratégie de groupe (GPO) permet de rediriger les dossiers de profils utilisateur vers un emplacement spécifié ?;GPO de Sécurité;GPO de Redirection;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;b
+Active_directory;Quelle commande est utilisée pour forcer la mise à jour des stratégies de groupe sur un ordinateur Windows ?;gpedit.msc;gpresult;gpupdate /force;gpreport;c
+Active_directory;Quelle est la première étape pour ajouter le rôle serveur DHCP sur un serveur Windows ?;Installation du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;d
+Active_directory;Quelle est l'étape suivante après l'installation du rôle serveur DHCP pour configurer un serveur DHCP ?;Configuration DNS sur les interfaces réseau;Configuration du serveur DNS;Configuration des plages d'adresses IP;Configuration des zones de recherche directes;c
+Active_directory;Quelle est la signification de l'acronyme LDAP dans le contexte d'Active Directory ?;Lightweight Directory Application Protocol;Local Directory Authentication Protocol;Link Data Access Protocol;Logical Domain Authentication Process;a
+Active_directory;Quelle est la signification de l'acronyme DNS dans le contexte d'Active Directory ?;Domain Name System;Directory Network Service;Domain Network Server;Directory Naming Service;a
+Active_directory;Quelle est la première étape pour configurer un serveur DHCP ?;Installation du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;d
+Active_directory;Quelle étape suit l'installation du rôle serveur DHCP pour configurer un serveur DHCP ?;Configuration des plages d'adresses IP;Configuration du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;a
+Active_directory;Quelle est la signification de l'acronyme ADDS dans le contexte d'Active Directory ?;Advanced Directory Domain Services;Active Directory Domain Services;Advanced Data Domain Services;Active Data Directory Services;b
+Active_directory;Quelle est la première étape pour promouvoir un serveur en Contrôleur de domaine ?;Configuration du serveur DNS;Installation du rôle serveur DHCP;Configuration des zones de recherche directes;Installation du rôle ADDS;d
+Active_directory;Quelle étape suit la promotion d'un serveur en Contrôleur de domaine pour ajouter des postes clients dans un domaine ?;Configuration DNS sur les postes clients;Configuration des plages d'adresses IP;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;a
+Active_directory;Quel outil est utilisé pour gérer les objets Active Directory tels que les utilisateurs, les ordinateurs et les groupes ?;Gestionnaire de serveur;Utilisateurs et Ordinateurs Active Directory;Gestionnaire de tâches;Gestionnaire de fenêtres;b
+Active_directory;Quelle est la première étape pour créer un compte administrateur dans Active Directory ?;Configuration d'une unité d'organisation (OU);Installation du serveur DNS;Installation du serveur DHCP;Création d'un nouvel utilisateur dans Utilisateurs et Ordinateurs Active Directory;d
+Active_directory;Quelle étape suit la création d'un compte utilisateur dans Active Directory pour configurer des autorisations spécifiques ?;Ajout de l'utilisateur à un groupe de distribution;Configuration des plages d'adresses IP;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;c
+Active_directory;Quel exemple de stratégie de groupe (GPO) désactive l'icône de la corbeille sur les postes clients Windows ?;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;GPO de Redirection;GPO de Sécurité;b
+Active_directory;Quel exemple de stratégie de groupe (GPO) permet de mapper un dossier partagé sur les postes clients Windows ?;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;GPO de Redirection;GPO de Sécurité;a
+Active_directory;Quel exemple de stratégie de groupe (GPO) permet de rediriger les dossiers de profils utilisateur vers un emplacement spécifié ?;GPO de Paramètres utilisateur;GPO de Paramètres d'ordinateur;GPO de Redirection;GPO de Sécurité;c
+Active_directory;Quelle commande est utilisée pour forcer la mise à jour des stratégies de groupe sur un ordinateur Windows ?;gpedit.msc;gpresult;gpupdate /force;gpreport;c
+Active_directory;Quelle est la première étape pour ajouter le rôle serveur DHCP sur un serveur Windows ?;Installation du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;d
+Active_directory;Quelle étape suit l'installation du rôle serveur DHCP pour configurer un serveur DHCP ?;Configuration DNS sur les interfaces réseau;Configuration des plages d'adresses IP;Configuration du serveur DNS;Ajout du rôle serveur DNS;b
+Active_directory;Quelle est la signification de l'acronyme LDAP dans le contexte d'Active Directory ?;Lightweight Directory Application Protocol;Local Directory Authentication Protocol;Link Data Access Protocol;Logical Domain Authentication Process;a
+Active_directory;Quelle est la signification de l'acronyme DNS dans le contexte d'Active Directory ?;Domain Name System;Directory Network Service;Domain Network Server;Directory Naming Service;a
+Active_directory;Quelle est la première étape pour configurer un serveur DHCP ?;Installation du serveur DNS;Configuration DNS sur les interfaces réseau;Ajout du rôle serveur DNS;Installation du rôle serveur DHCP;d
+Active_directory;Quelle étape suit l'installation du rôle serveur DHCP pour configurer un serveur DHCP ?;Configuration DNS sur les interfaces réseau;Configuration des plages d'adresses IP;Configuration du serveur DNS;Ajout du rôle serveur DNS;b
+Active_directory;Quelle est la signification de l'acronyme ADDS dans le contexte d'Active Directory ?;Advanced Directory Domain Services;Active Directory Domain Services;Advanced Data Domain Services;Active Data Directory Services;b
+Active_directory;Quelle est la première étape pour promouvoir un serveur en Contrôleur de domaine ?;Configuration du serveur DNS;Installation du rôle serveur DHCP;Configuration des zones de recherche directes;Installation du rôle ADDS;d
+Active_directory;Quelle étape suit la promotion d'un serveur en Contrôleur de domaine pour ajouter des postes clients dans un domaine ?;Configuration DNS sur les postes clients;Configuration des plages d'adresses IP;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;a
+Active_directory;Quelle étape suit la promotion d'un serveur en Contrôleur de domaine pour ajouter des postes clients dans un domaine ?;Configuration DNS sur les postes clients;Configuration des plages d'adresses IP;Configuration des stratégies de groupe (GPO);Configuration des zones de recherche directes;a;d
+Active_directory;Qu'est-ce qu'une GPO dans un environnement Active Directory ?;Group Policy Object;General Policy Objective;Group Program Operation;General Program Object;a
+Active_directory;Quelle commande permet de mettre à jour les stratégies de groupe sur un poste client ?;gpupdate /force;gpupdate /refresh;gpo /update;gpo /force;a
+Active_directory;Où se trouve le gestionnaire des stratégies de groupe dans Windows Server ?;Panneau de configuration;Outils d'administration;Gestionnaire de serveur;Invite de commandes;b
+Active_directory;Quel type de GPO est lié directement à un utilisateur ou à un ordinateur spécifique ?;Local GPO;Site GPO;Domain GPO;Organizational Unit GPO;a
+Active_directory;Quelle est la fonction principale d'un serveur DNS dans un réseau ?;Distribuer les adresses IP;Traduire les noms de domaine en adresses IP;Gérer les accès réseau;Contrôler les imprimantes réseau;b
+Active_directory;Quel outil est utilisé pour configurer un serveur DNS sous Windows Server ?;DNS Manager;DHCP Manager;Network Manager;IP Manager;a
+Active_directory;Quel type de zone DNS permet une résolution de nom dans les deux sens (avant et arrière) ?;Zone principale;Zone secondaire;Zone de stub;Zone de recherche inversée;d
+Active_directory;Qu'est-ce qu'un enregistrement A dans une zone DNS ?;Un enregistrement de machine virtuelle;Un enregistrement de service;Un enregistrement d'adresse IPv4;Un enregistrement d'adresse IPv6;c
+Active_directory;À quoi sert le serveur DHCP dans un réseau ?;Assigner automatiquement des adresses IP aux périphériques;Traduire les noms de domaine en adresses IP;Filtrer les paquets réseau;Fournir une connexion Internet;a
+Active_directory;Quelle option du serveur DHCP permet de spécifier la passerelle par défaut pour les clients DHCP ?;) Option 1;) Option 3;) Option 6;) Option 15;b
+Active_directory;Quelle commande permet de vérifier les baux DHCP actifs sur un serveur Windows ?;) ipconfig /leases;) netsh dhcp show leases;) dhcp show active;) netsh show dhcp;b
+Active_directory;Comment appelle-t-on un serveur DHCP configuré pour fournir des adresses IP à plusieurs sous-réseaux ?;) DHCP relay;) DHCP server;) DHCP client;) DHCP scope;a
+Active_directory;Quelle est la durée par défaut d'un bail DHCP dans Windows Server ?;) 4 heures;) 8 heures;) 24 heures;) 8 jours;d
+Active_directory;Quelle GPO peut être utilisée pour rediriger les dossiers utilisateurs (Documents, Bureau, etc.) vers un partage réseau ?;) GPO de sécurité;) GPO de dossier;) GPO de redirection de dossiers;) GPO de réseau;c
+Active_directory;Comment une GPO est-elle appliquée par défaut dans un domaine Active Directory ?;) Site, Domaine, OU;) OU, Domaine, Site;) Domaine, OU, Site;) Site, OU, Domaine;a
+Active_directory;Quel enregistrement DNS est utilisé pour les services de messagerie ?;) Enregistrement A;) Enregistrement CNAME;) Enregistrement MX;) Enregistrement TXT;c
+Active_directory;Quelle est la portée d'une GPO liée à une unité d'organisation (OU) ?;) Tous les utilisateurs et ordinateurs du domaine;) Tous les utilisateurs et ordinateurs de l'OU spécifiée;) Tous les utilisateurs et ordinateurs du site;) Tous les ordinateurs seulement;b
+Active_directory;Comment se nomme la base de données où sont stockées les informations DNS sur Windows Server ?;) DNS.dit;) dns.mdb;) dns.srv;) DNS Manager;a
+Active_directory;Quel protocole est utilisé par le service DHCP pour assigner des adresses IP ?;) TCP;) UDP;) ICMP;) HTTP;b
+Active_directory;Quel type de zone DNS est une copie en lecture seule d'une zone principale située sur un autre serveur ?;) Zone principale;) Zone secondaire;) Zone de stub;) Zone dynamique;b
+Active_directory;Quel outil permet de créer et gérer les GPO dans Windows Server ?;) Active Directory Users and Computers;) Group Policy Management Console;) Server Manager;) Control Panel;b
+Active_directory;Quelle commande permet de vérifier les enregistrements DNS sur un poste client Windows ?;) nslookup;) ipconfig /all;) ping;) tracert;a
+Active_directory;Quel est le rôle d'un enregistrement CNAME dans une zone DNS ?;) Associer un alias à un nom de domaine canonique;) Fournir une adresse IP pour un nom de domaine;) Spécifier le serveur de messagerie;) Indiquer le serveur autoritaire;a
+Active_directory;Quelle option du serveur DHCP spécifie les serveurs DNS pour les clients ?;) Option 1;) Option 3;) Option 6;) Option 15;c
+Active_directory;Quel enregistrement DNS est utilisé pour identifier le serveur autoritaire pour une zone DNS ?;) Enregistrement A;) Enregistrement MX;) Enregistrement CNAME;) Enregistrement SOA;d
+Active_directory;Quelle commande permet de forcer la réplication des GPO dans un domaine Active Directory ?;) gpupdate /force;) repadmin /syncall;) gpo /replicate;) gpresult /r;b
+Active_directory;Quel enregistrement DNS permet de spécifier les services disponibles dans un domaine ?;) Enregistrement A;) Enregistrement SRV;) Enregistrement MX;) Enregistrement PTR;b
+Active_directory;Quel est le port par défaut utilisé par le service DNS ?;) Port 80;) Port 443;) Port 53;) Port 25;c
+Active_directory;Quel type de GPO s'applique à tous les utilisateurs et ordinateurs d'un domaine Active Directory ?;) Local GPO;) Domain GPO;) OU GPO;) Site GPO;b
+Active_directory;Quel enregistrement DNS est utilisé pour la résolution inversée (adresse IP vers nom de domaine) ?;) Enregistrement A;) Enregistrement PTR;) Enregistrement MX;) Enregistrement SRV;b
+Active_directory;Quelle est la commande pour afficher la configuration réseau complète sur un poste Windows ?;) ipconfig /display;) netstat -a;) ipconfig /all;) nslookup;c
+Active_directory;Quel outil permet de surveiller et de gérer les baux DHCP sur un serveur Windows ?;) DHCP Manager;) IP Address Manager;) DNS Manager;) Network Monitor;a
+Active_directory;Comment appelle-t-on le processus de mise à jour d'un serveur DNS secondaire à partir du serveur DNS primaire ?;) Réplication;) Synchronisation;) Transfert de zone;) Diffusion;c
+Active_directory;Quelle est la portée d'une GPO liée à un site dans Active Directory ?;) Tous les utilisateurs et ordinateurs du site spécifié;) Tous les utilisateurs et ordinateurs du domaine;) Tous les utilisateurs et ordinateurs de l'OU;) Tous les utilisateurs seulement;a
+Active_directory;Quelle est la commande pour libérer et renouveler l'adresse IP d'un client DHCP sous Windows ?;) ipconfig /release et ipconfig /renew;) ipconfig /renew et ipconfig /refresh;) netsh dhcp release et netsh dhcp renew;) netsh ip release et netsh ip renew;a
+Active_directory;Quel est le fichier de base de données principal utilisé par le service DHCP sur un serveur Windows ?;) dhcp.mdb;) dhcp.dit;) dhcp.srv;) dhcp.xml;a
+Active_directory;Quel type de zone DNS contient uniquement les enregistrements nécessaires pour localiser les serveurs DNS autoritaires pour la zone principale ?;) Zone principale;) Zone secondaire;) Zone de stub;) Zone de recherche inversée;c
+Active_directory;Quelle option du serveur DHCP permet de spécifier le domaine DNS pour les clients DHCP ?;) Option 1;) Option 3;) Option 6;) Option 15;d
+Active_directory;Quel est le protocole utilisé pour la communication entre les serveurs DNS pour les transferts de zone ?;) TCP;) UDP;) HTTP;) FTP;a
+Active_directory;Quel outil permet de surveiller les événements liés aux GPO sur un serveur Windows ?;) Event Viewer;) Task Manager;) Performance Monitor;) Resource Monitor;a
+Active_directory;Quel enregistrement DNS permet de spécifier un alias pour un autre enregistrement DNS ?;) Enregistrement A;) Enregistrement CNAME;) Enregistrement MX;) Enregistrement PTR;b
+Active_directory;Quelle commande permet de vérifier la connectivité réseau et la résolution de noms de domaine ?;) ping;) tracert;) nslookup;) ipconfig;a
+Active_directory;Quel type de GPO est appliqué en dernier dans un environnement Active Directory ?;) Local GPO;) Site GPO;) Domain GPO;) OU GPO;d
+Active_directory;Quel enregistrement DNS est utilisé pour spécifier le serveur de messagerie d'un domaine ?;) Enregistrement A;) Enregistrement CNAME;) Enregistrement MX;) Enregistrement SRV;c
+Active_directory;Quel outil permet de configurer les options DHCP sur un serveur Windows ?;) DHCP Manager;) DNS Manager;) IP Address Manager;) Network Monitor;a
+Active_directory;Quel est le fichier utilisé pour stocker les informations de la base de données DNS sur un serveur Windows ?;) dns.mdb;) dns.dit;) dns.xml;) dns.txt;b
+Active_directory;Quelle commande permet de tester la réplication Active Directory entre les contrôleurs de domaine ?;) repadmin /showrepl;) gpupdate /force;) dcdiag /test:replication;) netdom query replication;a
+Active_directory;Quel est le rôle d'un enregistrement PTR dans une zone DNS ?;) Associer un alias à un nom de domaine canonique;) Fournir une adresse IP pour un nom de domaine;) Spécifier le serveur de messagerie;) Résoudre une adresse IP en nom de domaine;d
+Active_directory;Quel outil permet de créer et gérer les objets utilisateurs et ordinateurs dans Active Directory ?;) Active Directory Users and Computers;) Group Policy Management Console;) Server Manager;) Control Panel;a
+Active_directory;Qu'est-ce qu'Active Directory (AD) ?;Un système de gestion de base de données;Un système de gestion de réseau;Un service d'annuaire de Microsoft;Un protocole de sécurité réseau;c
+Active_directory;Quel est le rôle principal d'Active Directory dans un environnement Windows ?;Gérer les adresses IP des périphériques;Authentifier et autoriser les utilisateurs et les ordinateurs;Fournir un accès Internet sécurisé;Contrôler le trafic réseau en autorisant ou en bloquant certaines communications;b
+Active_directory;Quel est le langage de programmation utilisé pour administrer Active Directory ?;C++;Java;PowerShell;Python;c
+Active_directory;Quelle est la fonction principale d'un contrôleur de domaine dans Active Directory ?;Gérer les adresses IP des périphériques;Stocker les informations d'identification des utilisateurs et des ordinateurs;Fournir un accès Internet sécurisé;Contrôler le trafic réseau en autorisant ou en bloquant certaines communications;b
+Active_directory;Quelle est la structure hiérarchique utilisée dans Active Directory ?;Arborescence;Grille;Tableau;Boucle;a
+Active_directory;Quel est l'élément de base dans Active Directory qui représente une ressource physique ou logique, telle qu'un utilisateur, un ordinateur ou une imprimante ?;Groupe;Objet;Rôle;Unité organisationnelle (OU);b
+Active_directory;Quelle est la console d'administration principale utilisée pour gérer Active Directory ?;Gestionnaire de serveur;Gestionnaire de périphériques;Gestionnaire de domaines;Utilisateurs et ordinateurs Active Directory;d
+Active_directory;Quel est le protocole principal utilisé par les clients Windows pour se connecter et interagir avec Active Directory ?;FTP;SMB;LDAP;HTTP;c
+Active_directory;Quel est le processus de synchronisation des mots de passe entre un ordinateur et Active Directory ?;Authentification unique (SSO);Synchronisation des mots de passe;Protocole Kerberos;Gestion des certificats;b
+Active_directory;Quel est le rôle principal de Group Policy dans Active Directory ?;Gérer les adresses IP des périphériques;Définir des paramètres de sécurité et de configuration pour les utilisateurs et les ordinateurs;Fournir un accès Internet sécurisé;Contrôler le trafic réseau en autorisant ou en bloquant certaines communications;b
+Active_directory;Quel est le rôle de DNS dans un environnement Active Directory ?;Fournir des adresses IP aux périphériques du réseau;Authentifier et autoriser les utilisateurs et les ordinateurs;Convertir les noms de domaine en adresses IP et vice versa;Gérer les fichiers partagés;c
+Active_directory;Quelle est la commande utilisée pour ouvrir la console Utilisateurs et ordinateurs Active Directory à partir de PowerShell ?;Open-ADConsole;Start-ADUC;Get-ADConsole;Invoke-ADUC;b
+Active_directory;Quel est le processus d'attribution de permissions spécifiques à un objet ou à une ressource dans Active Directory ?;Délégation;Gestion des accès;Autorisation unique (SSO);Contrôle d'accès basé sur les rôles (RBAC);a
+Active_directory;Quelle est la fonction du service de certificats Active Directory (AD CS) ?;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;Gérer l'émission et la gestion des certificats de sécurité;d
+Active_directory;Quel est le processus de création d'une copie de sauvegarde de la base de données Active Directory ?;Sauvegarde;Clonage;Réplication;Sauvegarde d'autorité;a
+Active_directory;Quelle est la fonction principale du service Active Directory Lightweight Directory Services (AD LDS) ?;Gérer les adresses IP des périphériques;Fournir un annuaire léger pour les applications;Fournir un accès Internet sécurisé;Gérer la réplication des données;b
+Active_directory;Quelle est la commande pour forcer la réplication entre les contrôleurs de domaine dans Active Directory ?;Force-Replication;Start-Replication;Replicate-Now;repadmin /syncall;d
+Active_directory;Quel est le processus de création d'une copie d'un objet Active Directory sur un autre serveur ?;Clonage;Migration;Réplication;Délégation;c
+Active_directory;Quelle est la fonction principale du service Active Directory Certificate Services (AD CS) ?;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;Gérer la sécurité des certificats;d
+Active_directory;Quelle est la commande pour vérifier la santé et la réplication des contrôleurs de domaine dans Active Directory ?;Check-ADHealth;Get-ADDomainController;repadmin /replsummary;Test-ADDSDomainController;c
+Active_directory;Quel est le processus de création d'une unité organisationnelle (OU) dans Active Directory ?;Création;Ajout;Configuration;Déploiement;a
+Active_directory;Quelle est la commande utilisée pour créer un nouvel utilisateur dans Active Directory via PowerShell ?;New-ADUser;Create-ADUser;Add-ADUser;Set-ADUser;a
+Active_directory;Quelle est la fonction principale de Active Directory Federation Services (AD FS) ?;Authentifier et autoriser les utilisateurs et les ordinateurs;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;Fédérer l'authentification entre les organisations;d
+Active_directory;Quelle est la commande pour lister les groupes d'un utilisateur spécifique dans Active Directory via PowerShell ?;Get-ADUserGroup;Get-ADGroupMember;Get-ADUserMemberOf;Get-ADGroup;c
+Active_directory;Quel est le processus de déplacement d'un objet Active Directory d'un conteneur à un autre ?;Déplacement;Copie;Migration;Délégation;a
+Active_directory;Quelle est la fonction principale de Active Directory Rights Management Services (AD RMS) ?;Gérer les adresses IP des périphériques;Fournir des certificats SSL pour les sites web;Gérer les droits d'accès aux documents et aux fichiers;Fournir un accès Internet sécurisé;c
+Active_directory;Quelle est la commande pour désactiver un compte utilisateur dans Active Directory via PowerShell ?;Disable-ADAccount;Set-ADUser;Remove-ADUser;Deactivate-ADUser;a
+Active_directory;Quel est le processus de création d'un groupe de distribution dans Active Directory ?;Création;Ajout;Configuration;Déploiement;a
+Active_directory;Quelle est la fonction principale de Active Directory Domain Services (AD DS) ?;Authentifier et autoriser les utilisateurs et les ordinateurs;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;a
+Active_directory;Quelle est la commande pour lister tous les contrôleurs de domaine dans Active Directory via PowerShell ?;Get-ADDomainController;List-ADDC;Show-ADController;Get-ADController;a
+Active_directory;Quel est le processus de gestion des identités des utilisateurs dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;c
+Active_directory;Quelle est la fonction principale de Active Directory Lightweight Directory Services (AD LDS) ?;Gérer les adresses IP des périphériques;Fournir un annuaire léger pour les applications;Fournir un accès Internet sécurisé;Gérer la réplication des données;b
+Active_directory;Quelle est la commande pour modifier les propriétés d'un utilisateur dans Active Directory via PowerShell ?;Modify-ADUser;Set-ADUser;Update-ADUser;Change-ADUser;b
+Active_directory;Quel est le processus de gestion des accès des utilisateurs aux ressources dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;b
+Active_directory;Quelle est la fonction principale de Active Directory Certificate Services (AD CS) ?;Gérer les adresses IP des périphériques;Fournir des certificats SSL pour les sites web;Fournir un accès Internet sécurisé;Gérer l'émission et la gestion des certificats de sécurité;d
+Active_directory;Quelle est la commande pour modifier les groupes d'un utilisateur dans Active Directory via PowerShell ?;Set-ADUserGroup;Add-ADGroupMember;Add-ADUserGroup;Set-ADGroupMember;b
+Active_directory;Quel est le processus de configuration des paramètres de sécurité pour les utilisateurs et les ordinateurs dans Active Directory ?;Authentification;Autorisation;Gestion des accès;Gestion des stratégies de groupe (GPO);d
+Active_directory;Quelle est la fonction principale de Active Directory Rights Management Services (AD RMS) ?;Gérer les adresses IP des périphériques;Fournir des certificats SSL pour les sites web;Gérer les droits d'accès aux documents et aux fichiers;Fournir un accès Internet sécurisé;c
+Active_directory;Quelle est la commande pour déverrouiller un compte utilisateur verrouillé dans Active Directory via PowerShell ?;Unlock-ADAccount;Set-ADUser;UnlockUser;Unfreeze-ADUser;a
+Active_directory;Quel est le processus de gestion des identités des utilisateurs dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;c
+Active_directory;Quelle est la fonction principale de Active Directory Federation Services (AD FS) ?;Authentifier et autoriser les utilisateurs et les ordinateurs;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fédérer l'authentification entre les organisations;d
+Active_directory;Quelle est la commande pour désactiver un groupe dans Active Directory via PowerShell ?;Disable-ADGroup;Deactivate-ADGroup;Set-ADGroup;Remove-ADGroup;a
+Active_directory;Quel est le processus de création d'un utilisateur dans Active Directory ?;Création;Ajout;Configuration;Déploiement;a
+Active_directory;Quelle est la fonction principale de Active Directory Domain Services (AD DS) ?;Authentifier et autoriser les utilisateurs et les ordinateurs;Fournir des certificats SSL pour les sites web;Gérer les adresses IP des périphériques;Fournir un accès Internet sécurisé;a
+Active_directory;Quelle est la commande pour créer un nouveau groupe dans Active Directory via PowerShell ?;New-ADGroup;Create-ADGroup;Add-ADGroup;Set-ADGroup;a
+Active_directory;Quel est le processus de gestion des accès des utilisateurs aux ressources dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;b
+Active_directory;Quelle est la fonction principale de Active Directory Lightweight Directory Services (AD LDS) ?;Gérer les adresses IP des périphériques;Fournir un annuaire léger pour les applications;Fournir un accès Internet sécurisé;Gérer la réplication des données;b
+Active_directory;Quelle est la commande pour lister tous les groupes dans Active Directory via PowerShell ?;Get-ADGroup;List-ADGroup;Show-ADGroup;Get-ADGroupMember;a
+Active_directory;Quel est le processus de gestion des identités des utilisateurs dans Active Directory ?;Authentification;Autorisation;Provisionnement;Réplication;c
+Active_directory;Quelle est la fonction principale de Active Directory Certificate Services (AD CS) ?;Gérer les adresses IP des périphériques;Fournir des certificats SSL pour les sites web;Fournir un accès Internet sécurisé;Gérer l'émission et la gestion des certificats de sécurité;d
+Active_directory;Quelle commande permet d'afficher les informations de la configuration réseau, y compris les baux DHCP actifs sur un client Windows ?;) ipconfig /all;) netsh dhcp show leases;) dhcp show active;) netsh show dhcp;a
