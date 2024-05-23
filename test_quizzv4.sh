@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 ############################################################################## 
 #                                                                            #
-#	SHELL: !/bin/bash       version 4                                        #
+#	SHELL: !/bin/bash       version 4.1                                      #
 #									                                         #
 #	NOM: BEUGNET							                                 #
 #									                                         #
@@ -23,7 +23,7 @@ TEMPF1=temp1 #variables temp pour les messages motivationnels
 TEMPF2=temp2
 TEMPF3=temp3
 RED='\033[0;31m' #code couleur pour les mauvaises réponses
-GREEN='\033[0;32m'#code couleur pour les bonnes réponses
+GREEN='\033[0;32m' #code couleur pour les bonnes réponses
 NC='\033[0m' # No Color 
 BOLD='\033[1m' #code pour mettre en gras le texte
 #SAISPAS='\e[37;44m'
@@ -54,17 +54,27 @@ SAISPAS='\e[1;33;41m' #code pour la couleur d'arrière plan 1;33 pour le jaune, 
     echo "Qui n'a jamais aimé, n'a jamais vécu"
     echo "Si t'aurais su, t'aurais pas venu ??"
     echo "Bad Mother Fucker"
+    echo "Arrête les frites mec"
     echo "On regrette rarement d'avoir osé, mais toujours de ne pas avoir essayer. N'abandonne pas mec"
     echo "Linux, c'est comme une bicyclette, il faut avancer pour ne pas perdre l'équilibre"
     echo "Vous ne voulez pas un whisky d’abord ?"
     echo "Gamin ! Reviens gamin c'était pour rire !"
     echo "As-tu jamais dansé avec windows au clair de lune ?"
+    echo "Y a pas de question con, si t'as pas trouvé le pb se situe ailleurs, mais je ne dirai pas où"<
     echo "Houston on a un problème"
+    echo "01100110 01110101 01100011 01101011 00100000 01101101 01100101 01100011 (David B)"
     echo "Adrienne !!!!"
+    echo "t'as pas mal mec !!!!"
+    echo "bah bravo, tu pourrais chanter à l'Eurovision pour la suisse mec (David M)"
+    echo "le mariage c'est la vie (Billy JB)"
+    echo "тебя только что взломали (Alfou)"
     echo "Quel est ton film d'horreur préféré ?"
+    echo "la mémoire ça se travaillé mec, je te dirai bien comment mais j'ai oublié (Gaetan)"
     echo "Did you fuck my wife ?"
-    echo "You're alking to me ?"
+    echo "You're talking to me ?"
+    echo "ouais nan c'est n'importe quoi, on dirait matrix ou un film de Villeneuve (David M)"
     echo "t'es comme le psg mec, c'est tragique"
+    echo "nul comme le psg (Billy JB)"
     echo "Windows, c'est comme une boîte de chocolats : on ne sait jamais comment ça va planter"
     echo "je suis ton père !!!! Naaaannnnnnn !!!"
     echo "supporter du LOSC ? ta mère c'est ta soeur ???"
@@ -72,9 +82,11 @@ SAISPAS='\e[1;33;41m' #code pour la couleur d'arrière plan 1;33 pour le jaune, 
 {
     echo "chapeau mec"
     echo "Nom de Zeus"
+    echo "No windows, no cry !!! (Antoine D)"
     echo "Force et honneur mec"
     echo "Ô Capitaine ! Mon Capitaine !"
     echo "Why so serious ?"
+    echo "t'es le MBappé de l'informatique mec, ne commets pas la même erreur que lui, ne signe pas au psg"
     echo "t'as du potentiel mec"
     echo "Yippie-ki-yay mec"
     echo "J'adore l'odeur de linux au petit matin"
@@ -83,6 +95,8 @@ SAISPAS='\e[1;33;41m' #code pour la couleur d'arrière plan 1;33 pour le jaune, 
     echo "C'est OKKKKKKKK !"
     echo "Tu t'appelles Just Leblanc cest juste ?"
     echo "TSSR6 for life mec"
+    echo "Je connais une banque honnête... nan je déconne mec (Arnauld H)"
+    echo "Lèche moi le torse mec (le philosophe Billy JB)"
     echo "Il ne peut en rester qu'un, mec et c'est toi !!"
     echo "Un grand pouvoir implique de grandes responsabilités mec"
     echo "Sssplendide !!"
@@ -301,7 +315,7 @@ echo "ready ?"
 echo
 sleep 1
     #compte le nombre de themes différents, les tr permettent de formater le texte pour ensuite les regrouper avec uniq
-    NBTHEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr '[:upper:]' '[:lower:]'| tr -d '[:blank:]' | uniq | wc -l)
+    NBTHEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | uniq | sort -d -t ";" -k 1 | wc -l)
     echo
     echo question1="sélectionne le theme désiré"
     #création d'une boucle avec le nombre de themes vu plus haut
@@ -310,18 +324,22 @@ sleep 1
     do
     #pour chaque theme je récupère le nom du thème le head et le tail permettent d'identifier le ligne à sélectionner
     #ex : si 5 themes uniques dans le fichier il cherche la ligne 1 puis 2 etc...
-    THEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]' | uniq | head -$c | tail +$c )
-    #affiche le nom du thème à l'écran
-    echo $c="$THEMES"
+    THEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | uniq | head -$c | tail +$c )
     #récupère le nom du theme mais avec un formatage différent pour l'utiliser dans une variable, suppression des accents et mise en majuscules
-    THEMESVAR=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr éè ee | tr '[:lower:]' '[:upper:]' | uniq | head -$c | tail +$c )
+    THEMESVAR=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]'| uniq | head -$c | tail +$c )
+    NBQUESTTHEMES=$(cat $FICHIERQUESTIONS | grep ^$THEMESVAR | wc -l )
+    #echo "NBQUESTTHEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr éè ee | tr '[:lower:]' '[:upper:]' | grep ^"{$THEMESVAR}" | wc -l )"
+    #affiche le nom du thème à l'écran
+    echo "$c="$THEMES" ("$NBQUESTTHEMES" questions)"
+    
     #création des variables dynamiques liées au themes, par défaut le script ignore les themes, il les découvrent lors de la lecture du fichier question, il attribue donc 2 variables dynamiques par themes pour caluler les stats
     #les variables ci dessous peuvent être interpréter comme NBLINUX=0 NBWINDOWS=0 ou encore PTRESEAUX=0 etc...
     NB[THEMESVAR]=0
     PT[THEMESVAR]=0
     #fin de la boucle pour identifier les themes
     done
-    echo z="Toutes les thématiques"
+    NBQUESTTOT=$(cat $FICHIERQUESTIONS | wc -l )
+    echo z="Toutes les thématiques ("$NBQUESTTOT" questions)"
     #la commande read permet une action utilisateur avec injection du résultat dans une variable
     read -r question1
     sleep 0.5
