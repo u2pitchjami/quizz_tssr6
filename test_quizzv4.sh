@@ -275,7 +275,7 @@ q0() {
             q2
             else
             echo
-            echo "${BOLD}ok on continue mec${NC}"
+            echo -e "${BOLD}ok on continue mec${NC}"
             sleep 2
             echo
             clear
