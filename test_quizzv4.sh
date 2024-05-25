@@ -60,7 +60,7 @@ SAISPAS='\e[1;33;41m' #code pour la couleur d'arrière plan 1;33 pour le jaune, 
     echo "Vous ne voulez pas un whisky d’abord ?"
     echo "Gamin ! Reviens gamin c'était pour rire !"
     echo "As-tu jamais dansé avec windows au clair de lune ?"
-    echo "Y a pas de question con, si t'as pas trouvé le pb se situe ailleurs, mais je ne dirai pas où"<
+    echo "Y a pas de question con, si t'as pas trouvé le pb se situe ailleurs, mais je ne dirai pas où"
     echo "Houston on a un problème"
     echo "01100110 01110101 01100011 01101011 00100000 01101101 01100101 01100011 (David B)"
     echo "Adrienne !!!!"
