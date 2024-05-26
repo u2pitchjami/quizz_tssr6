@@ -183,12 +183,19 @@ General;A quoi correspond 1024 octets ?;1KO;2MO;1TO;1GO;3.2GO;2PO;A
 General;A quoi correspond 2048 KO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;b
 General;A quoi correspond 2048 TO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;f
 General;A quoi correspond 3624 MO ?;1KO;2MO;1TO;1GO;3.2GO;2PO;e
+General;Quel est le sens de SMTP ?;Superior Mail Trap Protocol;Simple Mail Transfert Protocol;Send Mail Trunk Protocol;Send Master Tri Protocol;b
+General;Quel est le sens de POP3 ?;Press Operation Putty 3;Proxy Operator Ponctual 3;Post Office Protocol 3;Protocol Offender Plus 3;c
+General;Quel est le sens de IMAP ?;Superior Mail Trap Protocol;Simple Mail Transfert Protocol;Send Mail Trunk Protocol;Send Master Tri Protocol;b
+General;Quel est la différence entre POP 3 et IMAP ?;IMAP récupère l'ensemble des message du serveur contrairement à POP 3;POP permet une connexion sécurisé au serveur mail et pas IMAP;Pop récupère l'ensemble des mails du serveur contrairement à POP;POP permet une connexion sécurisée au contraire d'IMAP;c
 General;A quoi servent les ports PCI et PCI Express sur une carte mère;Améliorer la vitesse du procésseur;insérer des extensions pour ajouter des fonctionnalitées supplémentaires;insérer des barettes de RAM;insérer une clé USB;b
 General;Citer les différents cables qui servent à relier une carte graphique à un écran ?;RJ45;Sata;VGA;USB;DVI;ce
 General;Quand on parle Generalement de la mémoire d'un pc on parle de la ?;RAM;ROM;A
 General;Quel est le type de mémoire qui s'efface quand on éteint l'ordinateur ?;RAM;ROM;A
 General;quelle est la différence principales entre un port PCI et PCI Express ?;la vitesse de transfert;la taille de la RAM;la version du bios;a
 General;Quelles sont les 3 principales caractéristiques matérielles que vont déterminer la performance d'un pc ?;Carte reseaux;Vitesse du microprocesseur;La version du bios;La quatité de RAM;Le système d'exploitation;La capacité de stockage;Le type de clavier;bdf
+General;Quel est le port par défaut pour le protocol SMTP ?;12;25;26;13;11;42;b
+General;Quel est le port par défaut pour le protocol POP3 non sécurisé ?;120;215;286;113;110;428;e
+General;Quel est le port par défaut pour le protocol IMAP non sécurisé ?;102;125;626;143;110;142;d
 Linux;A quoi sert la commande "touch" ?;éteindre son pc;créer un fichier vide;compter le nombre de lignes;une chanson de u2;b
 Linux;Comment ajouter une tâche cron qui s'exécute tous les jours à 3 heures du matin ?; 0 3 * * * /path/to/command; 0 3 0 0 0 /path/to/command; 3 0 * * * /path/to/command; * 3 * * * /path/to/command;a
 Linux;que faut-il ajouter à la commande "GREP" pour rechercher en début de ligne ?;&;$;^;@;c
@@ -600,10 +607,10 @@ reseaux;Quelle est la notation CIDR pour un masque de sous-réseau de 255.255.25
 reseaux;Quelle est la notation CIDR pour un masque de sous-réseau de 255.255.255.252 ?;/30;/31;/32;/33;a
 reseaux;Quelle est la notation CIDR pour un masque de sous-réseau de 255.255.255.255 ?;/31;/32;/33;/34;b
 reseaux;Quelle est la plage d'adresses IP disponibles dans un sous-réseau avec un masque de 255.255.255.0 ?;De 0.0.0.0 à 255.255.255.0;De 1.0.0.0 à 254.255.255.255;De 0.0.0.1 à 255.255.255.254;De 0.0.0.1 à 255.255.255.254;d
-reseaux;Quelle est la première adresse IP disponible dans un sous-réseau avec un masque de 255.255.255.128 ?;192.168.1.0;192.168.1.1;192.168.1.126;192.168.1.127;a
-reseaux;Quelle est la première adresse IP disponible dans un sous-réseau avec un masque de 255.255.255.192 ?;192.168.1.0;192.168.1.1;192.168.1.64;192.168.1.128;a
-reseaux;Quelle est la première adresse IP disponible dans un sous-réseau avec un masque de 255.255.255.240 ?;192.168.1.0;192.168.1.16;192.168.1.32;192.168.1.240;a
-reseaux;Quelle est la première adresse IP disponible dans un sous-réseau avec un masque de 255.255.255.248 ?;192.168.1.0;192.168.1.8;192.168.1.16;192.168.1.32;a
+reseaux;Quelle est la première adresse IP utilisable dans un sous-réseau avec un masque de 255.255.255.128 ?;192.168.1.0;192.168.1.1;192.168.1.126;192.168.1.127;b
+reseaux;Quelle est la première adresse IP utilisable dans un sous-réseau avec un masque de 255.255.255.192 ?;192.168.1.0;192.168.1.1;192.168.1.64;192.168.1.128;b
+reseaux;Quelle est la première adresse IP utilisable dans un sous-réseau avec un masque de 255.255.255.240 ?;192.168.1.0;192.168.1.1;192.168.1.32;192.168.1.240;b
+reseaux;Quelle est la première adresse IP utilisable dans un sous-réseau avec un masque de 255.255.255.248 ?;192.168.1.0;192.168.1.8;192.168.1.16;192.168.1.32;b
 reseaux;Quelle est la première couche du modèle OSI ?; Physique; Liaison de données; Réseau; Transport;a
 reseaux;Quelle est la principale raison de diviser un réseau en sous-reseaux ?;Augmenter le nombre d'adresses IP disponibles;Réduire la congestion du réseau;Améliorer la sécurité du réseau;Faciliter la configuration des routeurs;b
 reseaux;Quelle est la taille du sous-réseau avec un masque de 255.255.255.0 ?;254 adresses IP;256 adresses IP;512 adresses IP;1024 adresses IP;a
