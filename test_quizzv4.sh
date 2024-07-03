@@ -70,6 +70,7 @@ SAISPAS='\e[1;33;41m' #code pour la couleur d'arrière plan 1;33 pour le jaune, 
     echo "тебя только что взломали (Alfou)"
     echo "Quel est ton film d'horreur préféré ?"
     echo "la mémoire ça se travaillé mec, je te dirai bien comment mais j'ai oublié (Gaetan)"
+    echo "Tu passes trop de temps sur windows mec, reprends toi !!!"
     echo "Did you fuck my wife ?"
     echo "You're talking to me ?"
     echo "ouais nan c'est n'importe quoi, on dirait matrix ou un film de Villeneuve (David M)"
@@ -100,7 +101,6 @@ SAISPAS='\e[1;33;41m' #code pour la couleur d'arrière plan 1;33 pour le jaune, 
     echo "Il ne peut en rester qu'un, mec et c'est toi !!"
     echo "Un grand pouvoir implique de grandes responsabilités mec"
     echo "Sssplendide !!"
-    echo "Tu passes trop de temps sur windows mec, reprends toi !!!"
     echo "Quand le sage montre linux, le fou regarde windows"
     echo "La 1ère règle du code club est : on ne parle pas du code club"
     echo "Que la Force soit avec toi mec"
@@ -116,19 +116,21 @@ SAISPAS='\e[1;33;41m' #code pour la couleur d'arrière plan 1;33 pour le jaune, 
     echo "Alfou ? c'est toi ?"
     echo "trop fort mec, tu es démasqué, c'est toi qui a piraté le doc !!!"
 } >> $TEMPF2 #envoie les phrases si dessus dans un fichier temporaire
+
+
 q2() {
-    echo
-            echo "Voici ton résultat mec :"
-            sleep 1
-            echo "prépare les mouchoirs haha"
-            sleep 1
-            echo "$POINTS bonnes réponses pour $NBQUEST questions"
-            sleep 1
-            z=$((POINTS *100 / NBQUEST))
-            echo
-            echo -e "${BOLD}soit $z % de bonnes réponses mec${NC}"
-            echo "recap total : $z % de bonnes réponses" >> ${DATE}-Quizz-log.txt
-            echo
+        echo
+        echo "Voici ton résultat mec :"
+        sleep 1
+        echo "prépare les mouchoirs haha"
+        sleep 1
+        echo "$POINTS bonnes réponses pour $NBQUEST questions"
+        sleep 1
+        z=$((POINTS *100 / NBQUEST))
+        echo
+        echo -e "${BOLD}soit $z % de bonnes réponses mec${NC}"
+        echo "recap total : $z % de bonnes réponses" >> ${DATE}-Quizz-log.txt
+        echo
             if [ $z -gt 80 ];
             then
             echo -e "respect mec, c'est toi  le king"
@@ -148,129 +150,136 @@ q2() {
             echo -e "aie"
             fi
             echo
-            if [ $T = "all" ];
-            then
-            echo "détails :"
-            NBTHEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr '[:upper:]' '[:lower:]'| tr -d '[:blank:]' | uniq | wc -l)
-                for (( c=1; c<=NBTHEMES; c++ ))
-                do
-                THEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]' | uniq | head -$c | tail +$c )
-                THEMESVAR=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr éè ee | tr '[:lower:]' '[:upper:]' | uniq | head -$c | tail +$c )
-                echo "$THEMES :"
-                A=$(eval "echo \$NB$THEMESVAR")
-                B=$(eval "echo \$PT$THEMESVAR")
-                if [ -z $B ];
+                if [ $T = "all" ];
                 then
-                echo "Nb de questions : $A"
-                echo "aucune bonne réponse pour ce theme mec"
-                echo "Theme : $THEMES --> Aucune bonne réponse" >> ${DATE}-Quizz-log.txt
-                else
-                echo "Nb de questions : $A et $B bonnes réponses"
-                y=$((B *100 / A))
-                echo -e "${BOLD}soit $y % de bonnes réponses pour ce theme${NC}"
-                echo "Theme : $THEMES --> $z % de bonnes réponses" >> ${DATE}-Quizz-log.txt
+                echo "détails :"
+                NBTHEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr '[:upper:]' '[:lower:]'| tr -d '[:blank:]' | uniq | wc -l)
+                    
+                    for (( c=1; c<=NBTHEMES; c++ ))
+                    do
+                    THEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]' | uniq | head -$c | tail +$c )
+                    THEMESVAR=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr éè ee | tr '[:lower:]' '[:upper:]' | uniq | head -$c | tail +$c )
+                    echo "$THEMES :"
+                    A=$(eval "echo \$NB$THEMESVAR")
+                    B=$(eval "echo \$PT$THEMESVAR")
+                        
+                        if [ -z $B ];
+                        then
+                        echo "Nb de questions : $A"
+                        echo "aucune bonne réponse pour ce theme mec"
+                        echo "Theme : $THEMES --> Aucune bonne réponse" >> ${DATE}-Quizz-log.txt
+                        else
+                        echo "Nb de questions : $A et $B bonnes réponses"
+                        y=$((B *100 / A))
+                        echo -e "${BOLD}soit $y % de bonnes réponses pour ce theme${NC}"
+                        echo "Theme : $THEMES --> $z % de bonnes réponses" >> ${DATE}-Quizz-log.txt
+                        fi
+                    done
                 fi
-                done
-            fi
-            echo
-            echo "merci d'avoir joué"
-            echo
-            sleep 1
-            echo "bisous"
-            rm $TEMPF*
-}
+        echo
+        echo "merci d'avoir joué"
+        echo
+        sleep 1
+        echo "bisous"
+        rm $TEMPF*
+    }
+
+
 #démarrage de la fonction q1 qui pose la question à l'utilisateur, cette fonction sera utilisé 10 fois d'affilée
 q1() {
-#compte le nombre de question restant encore à poser
-TOTALQUEST=$(cat $TEMPF | wc -l)
-#si plus de question
-if [[ $TOTALQUEST = 0 ]];
-then
-echo "c'est fini mec, tu as épuisé toutes les questions possibles"
-#éxécute la fonction q2 qui gère les résultats
-q2
-else
-#incrémente de 1 les variables comptant le nombre de questions
-((NBQUEST++))
-((NBQUESTTEMP++))
-#sélectionne aléatoirement une question dans le fichier des questions restantes
-NUMQUEST=$((1 + RANDOM % TOTALQUEST))
-THEME=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f1 | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]')
-THEMESVAR=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f1 | tr -d '[:blank:]' | tr éè ee | tr '[:lower:]' '[:upper:]' | uniq )
-QUEST=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f2)
-((NB"${THEMESVAR}"++))
-NUM=2
-NBREPTEMP=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | sed 's/[^;]//g' | wc -c )
-NBREP="$((NBREPTEMP - NUM))"
-echo "--------------------------------------"
-echo -e "${BOLD}Question $NBQUEST Theme : $THEME${NC}"
-echo "--------------------------------------"
-MULTI=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f$NBREPTEMP| tr -d "\t" | tr -d '[:space:]'  | tr -d '[:blank:]' | wc -c )
-if [ "$MULTI" -gt 1 ];
-then
-echo -e "${RED}${BOLD}ATTENTION${NC}, question à choix multiples"
-echo "(donc réponse de type : ab ou ade ou bcd etc...)"
-echo
-sleep 1
-else
-echo -e "une seule réponse possible" 
-echo
-fi
-question="$QUEST"
-echo -e "${SAISPAS}${BOLD}$QUEST${NC}"
-for (( v=1; v<NBREP; v++ ))
-do
-chars=( {a..z} )
-NUMREP="$((v + NUM ))"
-w="$((v - 1 ))"
-R=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f$NUMREP)
-echo -e "${chars[w]}"="$R"
-done
-sleep 1
-read -r question
-BR=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f"$NBREPTEMP" | tr -d "\t" | tr -d '[:space:]'  | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]')
-REPONSE=$(echo "$question" | tr -d "\t" | tr -d '[:space:]'  | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]')
-if [ "$REPONSE" = "$BR" ];
-then
-NBTEMP2=$(cat $TEMPF2 | wc -l)
-NUMB=$((1 + RANDOM % NBTEMP2))
-((PT"${THEMESVAR}"++))
-    echo
-    echo "$THEME - $QUEST - ta réponse : $REPONSE - Bonne réponse" >> ${DATE}-Quizz-log.txt
-    echo -e "${GREEN}bonne réponse !!${NC}"
-    sleep 0.5 
-    cat $TEMPF2 | head -$NUMB | tail +$NUMB
-    echo
-    ((POINTS++))
-    sleep 0.5 
-    echo "ton total provisoire est de $POINTS points"
-    echo
-    sleep 0.5
-    echo "question suivante"
-    sleep 2
-    clear
-else
-NBTEMP1=$(cat $TEMPF1 | wc -l)
-NUME=$((1 + RANDOM % NBTEMP1))
-    echo
-    echo "$THEME - $QUEST - ta réponse : $REPONSE - Mauvaise réponse" >> ${DATE}-Quizz-log.txt
-    echo -e "${RED}Mauvaise réponse${NC}"
-    sleep 0.5
-    echo -e "la bonne réponse était :${BOLD} $BR ${NC}"
-    sleep 0.5
-    cat $TEMPF1 | head -$NUME | tail +$NUME
-    echo
-    echo "question suivante"
-    sleep 2
-    clear
-fi
-sed "${NUMQUEST}d" $TEMPF > $TEMPF3
-rm $TEMPF
-cat $TEMPF3 > $TEMPF
-rm $TEMPF3
-q0
-fi
-}
+        #compte le nombre de question restant encore à poser
+        TOTALQUEST=$(cat $TEMPF | wc -l)
+        #si plus de question
+            if [[ $TOTALQUEST = 0 ]];
+            then
+            echo "c'est fini mec, tu as épuisé toutes les questions possibles"
+            #éxécute la fonction q2 qui gère les résultats
+            q2
+            else
+            #incrémente de 1 les variables comptant le nombre de questions
+            ((NBQUEST++))
+            ((NBQUESTTEMP++))
+            #sélectionne aléatoirement une question dans le fichier des questions restantes
+            NUMQUEST=$((1 + RANDOM % TOTALQUEST))
+            THEME=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f1 | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]')
+            THEMESVAR=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f1 | tr -d '[:blank:]' | tr éè ee | tr '[:lower:]' '[:upper:]' | uniq )
+            QUEST=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f2)
+            ((NB"${THEMESVAR}"++))
+            NUM=2
+            NBREPTEMP=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | sed 's/[^;]//g' | wc -c )
+            NBREP="$((NBREPTEMP - NUM))"
+            echo "--------------------------------------"
+            echo -e "${BOLD}Question $NBQUEST Theme : $THEME${NC}"
+            echo "--------------------------------------"
+            MULTI=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f$NBREPTEMP| tr -d "\t" | tr -d '[:space:]'  | tr -d '[:blank:]' | wc -c )
+                if [ "$MULTI" -gt 1 ];
+                then
+                echo -e "${RED}${BOLD}ATTENTION${NC}, question à choix multiples"
+                echo "(donc réponse de type : ab ou ade ou bcd etc...)"
+                echo
+                sleep 1
+                else
+                echo -e "une seule réponse possible" 
+                echo
+                fi
+            question="$QUEST"
+            echo -e "${SAISPAS}${BOLD}$QUEST${NC}"
+                for (( v=1; v<NBREP; v++ ))
+                do
+                chars=( {a..z} )
+                NUMREP="$((v + NUM ))"
+                w="$((v - 1 ))"
+                R=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f$NUMREP)
+                echo -e "${chars[w]}"="$R"
+                done
+            sleep 1
+            read -r question
+            BR=$(head -$NUMQUEST $TEMPF | tail +$NUMQUEST | cut -d ";" -f"$NBREPTEMP" | tr -d "\t" | tr -d '[:space:]'  | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]')
+            REPONSE=$(echo "$question" | tr -d "\t" | tr -d '[:space:]'  | tr -d '[:blank:]' | tr '[:upper:]' '[:lower:]')
+                
+                if [ "$REPONSE" = "$BR" ];
+                then
+                NBTEMP2=$(cat $TEMPF2 | wc -l)
+                NUMB=$((1 + RANDOM % NBTEMP2))
+                ((PT"${THEMESVAR}"++))
+                echo
+                echo "$THEME - $QUEST - ta réponse : $REPONSE - Bonne réponse" >> ${DATE}-Quizz-log.txt
+                echo -e "${GREEN}bonne réponse !!${NC}"
+                sleep 0.5 
+                cat $TEMPF2 | head -$NUMB | tail +$NUMB
+                echo
+                ((POINTS++))
+                sleep 0.5 
+                echo "ton total provisoire est de $POINTS points"
+                echo
+                sleep 0.5
+                echo "question suivante"
+                sleep 2
+                clear
+                else
+                NBTEMP1=$(cat $TEMPF1 | wc -l)
+                NUME=$((1 + RANDOM % NBTEMP1))
+                echo
+                echo "$THEME - $QUEST - ta réponse : $REPONSE - Mauvaise réponse" >> ${DATE}-Quizz-log.txt
+                echo -e "${RED}Mauvaise réponse${NC}"
+                sleep 0.5
+                echo -e "la bonne réponse était :${BOLD} $BR ${NC}"
+                sleep 0.5
+                cat $TEMPF1 | head -$NUME | tail +$NUME
+                echo
+                echo "question suivante"
+                sleep 2
+                clear
+                fi
+
+
+            sed "${NUMQUEST}d" $TEMPF > $TEMPF3
+            rm $TEMPF
+            cat $TEMPF3 > $TEMPF
+            rm $TEMPF3
+            q0
+            fi
+    }
 
 
 q0() {
@@ -284,6 +293,7 @@ q0() {
         echo "o ou n ?"
         read -r continuer
         rep=$(echo "$continuer" | tr '[:upper:]' '[:lower:]')   
+           
             if [ "$rep" = "n" ];
             then
             q2
@@ -295,11 +305,14 @@ q0() {
             clear
             q1
             fi
+
         else
         q1
         fi
     
-}
+    }
+
+#début du script
 echo
 echo -e "${SAISPAS}${BOLD}QUESTIONNAIRE REVISIONS${NC}"
 echo
@@ -314,12 +327,13 @@ echo
 echo "ready ?"
 echo
 sleep 1
-    #compte le nombre de themes différents, les tr permettent de formater le texte pour ensuite les regrouper avec uniq
-    NBTHEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | uniq | sort -d -t ";" -k 1 | wc -l)
-    echo
-    echo question1="sélectionne le theme désiré"
-    #création d'une boucle avec le nombre de themes vu plus haut
-    #la boucle démarre par c=1, à chaque itération c prendra +1 et continuera jusqu'à ce que c soit égal au nombre de thèmes
+#compte le nombre de themes différents, les tr permettent de formater le texte pour ensuite les regrouper avec uniq
+NBTHEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | uniq | sort -d -t ";" -k 1 | wc -l)
+echo
+echo question1="sélectionne le theme désiré"
+#création d'une boucle avec le nombre de themes vu plus haut
+#la boucle démarre par c=1, à chaque itération c prendra +1 et continuera jusqu'à ce que c soit égal au nombre de thèmes
+   
     for (( c=1; c<=NBTHEMES; c++ ))
     do
     #pour chaque theme je récupère le nom du thème le head et le tail permettent d'identifier le ligne à sélectionner
@@ -331,7 +345,6 @@ sleep 1
     #echo "NBQUESTTHEMES=$(cat $FICHIERQUESTIONS | cut -d ";" -f1 | tr -d '[:blank:]' | tr éè ee | tr '[:lower:]' '[:upper:]' | grep ^"{$THEMESVAR}" | wc -l )"
     #affiche le nom du thème à l'écran
     echo "$c="$THEMES" ("$NBQUESTTHEMES" questions)"
-    
     #création des variables dynamiques liées au themes, par défaut le script ignore les themes, il les découvrent lors de la lecture du fichier question, il attribue donc 2 variables dynamiques par themes pour caluler les stats
     #les variables ci dessous peuvent être interpréter comme NBLINUX=0 NBWINDOWS=0 ou encore PTRESEAUX=0 etc...
     NB[THEMESVAR]=0
@@ -369,6 +382,7 @@ sleep 1
     cat $FICHIERQUESTIONS | grep ^"$THEMES"  > $TEMPF   
     TOTALQUEST=$(cat $TEMPF | wc -l)
     fi
+
 echo "prépare toi ça va commencer"
 echo
 sleep 1
