@@ -1,5 +1,0 @@
-linux - que faut-il ajouter à la commande "GREP" pour rechercher en début de ligne ? - ta réponse : a - Mauvaise réponse
-linux - A quoi sert la commande "touch" ? - ta réponse : a - Mauvaise réponse
-linux - que faut-il ajouter à la commande "GREP" pour rechercher en fin de ligne ? - ta réponse : a - Mauvaise réponse
-linux - Qu'elles sont les 2 grandes familles (vues en cours) de distro linux ? - ta réponse : a - Mauvaise réponse
-recap total : 0 % de bonnes réponses
